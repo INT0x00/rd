@@ -1,0 +1,42 @@
+Here are some fine resources found across the net on assembly, x86_64 architecture, and other interesting topics which are essential
+to understanding binary information, files, memory, cpu cycles and all that jazz...
+
+I will try to structure and sort this as i add more resources.
+
+PEOPLE:
+http://z0mbie.daemonlab.org/  <-- Z0mbie: One of the more creative and knowledable people in this field. 
+                                          Read his articles if you know what is good for you!
+https://github.com/xoreaxeaxeax <-- Brilliant mind, creator of movfuscator and cantor dust and a lot of other cool tools. 
+                                    Shares good knowledge about low level architectural issues and quircks.
+http://www.cs.bham.ac.uk/~exr/teaching/lectures/opsys/10_11/lectures/os-dev.pdf <-- OS development tutorial pdf by Nick Blundell                             
+COMMUNITIES / FORUMS / CHAT
+vxheaven.org/                 <-- VX Heaven: A virus creator community with a lot of interesting sources and insights.
+IRC                           <-- Chat network, old, but gold. A lot of good communities and channels with people.
+                                  Any popular server will have #virus #assembly channels where people lurk around
+                                  and exchange information.
+wiki.osdev.org                <--- Operating system development community.
+
+
+
+DOCUMENTATION:
+INTEL: https://software.intel.com/en-us/articles/intel-sdm (bit hard to read compared to AMD... but both are good in their own way)
+AMD: http://developer.amd.com/resources/developer-guides-manuals/
+interrupts: www.ctyme.com/rbrown.htm  <- Ralf Brown's Interrupt list. good for low level things like information about BIOS interrupts etc.
+multiboot specifications:
+         v2 - http://git.savannah.gnu.org/cgit/grub.git/tree/doc/multiboot.texi?h=multiboot2
+         v1 - http://git.savannah.gnu.org/cgit/grub.git/tree/doc/multiboot.texi?h=multiboot
+pci local bus spec v3: https://lekensteyn.nl/files/docs/PCI_SPEV_V3_0.pdf
+pci-e v3 spec: composter.com.ua/documents/PCI_Express_Base_Specification_Revision_3.0.pdf 
+
+
+TOOLS/LIBS:
+  nasm
+  gdb
+  qemu
+  gcc
+  objdump
+  objcopy
+  ndissasm
+  readelf
+  hexdump
+  intel XEDlib
