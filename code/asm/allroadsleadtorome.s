@@ -1,7 +1,7 @@
 global _start:
 section .text
 ; assemble me, assemble me not... assemble me... assemble me not.. assemble me...
-start:
+_start:
 	lea rax, [0]			; rax = 0
 	shr rax, 32                    	; rax = 0
 	shl rax, 32                    	; rax = 0
