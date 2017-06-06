@@ -1,0 +1,83 @@
+:: Code from Code ::
+
+>> this article will be updated and amended as feedback / information comes in and i learn new things.
+>> last update: 6/6/17
+
+:: Intro
+Writing code is hard, and tedious. No one likes hard and tedious things. 
+This simple fact is the reason why so much shoddy and crap software is released. People don't have the motivation (they only like money or sex...) to
+write decent code, test their code, and take pride in their craftmanship. Rich elites won't pay the
+poor developer more to develop a beautiful product if they can sell a turd for just as much or more!
+They pay the 'full stack java developer'  a shit ton for a brand new sqli vulnerable piece of crap though ;)....
+
+Ofcourse there are people who do like tedious things, and luckily, they even like to share their thoughts on some dark places on the net.
+I have collected some information and lessons from such people, and here will attempt to do my part in sharing this
+regarding getting code to write code, and why we would want to do such a thing.
+I won't give too much specifics, but in the binary-excursions project some code and information will
+be included to show some of the things mentioned here.
+
+
+
+:: Why write code that writes code?
+There are a few simple goals you can have for writing code from code.
+Here is a non exhaustive list:
+	- poly/metamosphism
+	- cross-platform support
+	- reducing human error
+	- reducing programming time spent
+	- reduce repetitive tasks
+(the reasons for these goals seem obvious.)
+
+So... let's go more into this!
+
+:: If we have a bit of code which writes code, how would this look?
+Basically, code which writes code, will output a file which is to be interpreted by yet another compiler or interpreter.
+It can be in any kind of format you like, but generally, abstractions reduce complexity, so the output should be more complex
+than the input script. (otherwise you are losing time!)
+
+:: Byte-code? Interpreter?
+A little information here. Byte-code is generally code which consists of just plain bytes.
+Like machine code, it is interpreted directly from the binary information contained in the bytes without
+any fancy headers or descrptive information.
+An interpreter is a program which interpets input and produces output. This output in the case of this article
+is actual machine code to run on the cpu. (like java or python byte-code which gets interpreted by their interpreters)
+Interpreters usually work ' just in time' which means as opcodes need to be executed, they are decoded on the spot.
+Regular compilers compile an entire source to binary / machine code and put it in a file format an operating system
+can understand. (preferably... but you can render binary blobs or be creative with compiler scripts...)
+
+:: Polywhatnow?
+Poly and Metamorphism refer to tecniques used to produce varying binaries from a similar source.
+These tecniques are commonly used by malware and DRM to obfuscate what a program is going and to
+evade signature based detections. 
+
+:Polymorphism:
+polymorphism is the simpeler morphism. This generally doesn't change actual opcodes but orients more to program layout to
+evade signatures. This tecnique works well against hash checks and other signatures, but isn't very well against byte signatures or
+behavioural analysis.
+
+:Metamorphism
+metamosphism is a technique where at the opcode level things are varied on each 'compile' so the byte code, functions and flow of the 
+application totally changes. This tecnique is much harder to create signatures from as full dynamic analysis and state tracking is required.
+This makes it so really only sandboxes have a chance of catching this. (and sandboxes can be escaped, evaded, or just confused all together :-))
+
+:: Compiling code which creates code
+To compile code which creates code there are multiple methods to do this. 
+I will briefly go into a few general ideas and expand this section as i gain more knowledge and experience in this area.
+
+- you need to make a set of tools or scripts which can produce code (obviously)
+  ways to do it:
+	      1)  make a lot of signatures for assembly codes which have similar function.
+                  analyse input source, and replace each line with random opcodes which have the correct functions
+		  output new code.
+		  a simple example would be: a 1 line ASM file containing ' add rax, 1' is the input.
+		  when you run generate.py <input> , out comes a file with 'inc rax' as statement.
+                  (you could make it pick randomly from a list, shuffle the order of functions
+	          and try to insert jumps and garbage to make it poly/metamorphic depending on how motivated
+	          and evil you really are ;))
+
+		2) Use a DSL (you write script, this gets compiled to DSL, which inturn gets compiled to machinecode)
+		   in the script -> dsl layer ,there you can change the contents of the sources.
+		   in the dsl layer itself you can match bytecode signatures and swap/replace them.
+
+
+	           
