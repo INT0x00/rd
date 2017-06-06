@@ -1,0 +1,2048 @@
+1:0x0 : ...
+1:0x1 : 01                   	.byte 0x1
+1:0x2 : 02                   	.byte 0x2
+1:0x3 : 03                   	.byte 0x3
+1:0x4 : 04                   	.byte 0x4
+1:0x5 : 05                   	.byte 0x5
+1:0x6 : 06                   	(bad)
+1:0x7 : 07                   	(bad)
+1:0x8 : 08                   	.byte 0x8
+1:0x9 : 09                   	.byte 0x9
+1:0xa : 0a                   	.byte 0xa
+1:0xb : 0b                   	.byte 0xb
+1:0xc : 0c                   	.byte 0xc
+1:0xd : 0d                   	.byte 0xd
+1:0xe : 0e                   	(bad)
+1:0xf : 
+1:0x10 : 10                   	.byte 0x10
+1:0x11 : 11                   	.byte 0x11
+1:0x12 : 12                   	.byte 0x12
+1:0x13 : 13                   	.byte 0x13
+1:0x14 : 14                   	.byte 0x14
+1:0x15 : 15                   	.byte 0x15
+1:0x16 : 16                   	(bad)
+1:0x17 : 17                   	(bad)
+1:0x18 : 18                   	.byte 0x18
+1:0x19 : 19                   	.byte 0x19
+1:0x1a : 1a                   	.byte 0x1a
+1:0x1b : 1b                   	.byte 0x1b
+1:0x1c : 1c                   	.byte 0x1c
+1:0x1d : 1d                   	.byte 0x1d
+1:0x1e : 1e                   	(bad)
+1:0x1f : 1f                   	(bad)
+1:0x20 : 20                   	.byte 0x20
+1:0x21 : 21                   	.byte 0x21
+1:0x22 : 22                   	.byte 0x22
+1:0x23 : 23                   	.byte 0x23
+1:0x24 : 24                   	.byte 0x24
+1:0x25 : 25                   	.byte 0x25
+1:0x26 : 26                   	es
+1:0x27 : 27                   	(bad)
+1:0x28 : 28                   	.byte 0x28
+1:0x29 : 29                   	.byte 0x29
+1:0x2a : 2a                   	.byte 0x2a
+1:0x2b : 2b                   	.byte 0x2b
+1:0x2c : 2c                   	.byte 0x2c
+1:0x2d : 2d                   	.byte 0x2d
+1:0x2e : 2e                   	cs
+1:0x2f : 2f                   	(bad)
+1:0x30 : 30                   	.byte 0x30
+1:0x31 : 31                   	.byte 0x31
+1:0x32 : 32                   	.byte 0x32
+1:0x33 : 33                   	.byte 0x33
+1:0x34 : 34                   	.byte 0x34
+1:0x35 : 35                   	.byte 0x35
+1:0x36 : 36                   	ss
+1:0x37 : 37                   	(bad)
+1:0x38 : 38                   	.byte 0x38
+1:0x39 : 39                   	.byte 0x39
+1:0x3a : 3a                   	.byte 0x3a
+1:0x3b : 3b                   	.byte 0x3b
+1:0x3c : 3c                   	.byte 0x3c
+1:0x3d : 3d                   	.byte 0x3d
+1:0x3e : 3e                   	ds
+1:0x3f : 3f                   	(bad)
+1:0x40 : 40                   	rex
+1:0x41 : 41                   	rex.B
+1:0x42 : 42                   	rex.X
+1:0x43 : 43                   	rex.XB
+1:0x44 : 44                   	rex.R
+1:0x45 : 45                   	rex.RB
+1:0x46 : 46                   	rex.RX
+1:0x47 : 47                   	rex.RXB
+1:0x48 : 48                   	rex.W
+1:0x49 : 49                   	rex.WB
+1:0x4a : 4a                   	rex.WX
+1:0x4b : 4b                   	rex.WXB
+1:0x4c : 4c                   	rex.WR
+1:0x4d : 4d                   	rex.WRB
+1:0x4e : 4e                   	rex.WRX
+1:0x4f : 4f                   	rex.WRXB
+1:0x50 : 50                   	push   %rax
+1:0x51 : 51                   	push   %rcx
+1:0x52 : 52                   	push   %rdx
+1:0x53 : 53                   	push   %rbx
+1:0x54 : 54                   	push   %rsp
+1:0x55 : 55                   	push   %rbp
+1:0x56 : 56                   	push   %rsi
+1:0x57 : 57                   	push   %rdi
+1:0x58 : 58                   	pop    %rax
+1:0x59 : 59                   	pop    %rcx
+1:0x5a : 5a                   	pop    %rdx
+1:0x5b : 5b                   	pop    %rbx
+1:0x5c : 5c                   	pop    %rsp
+1:0x5d : 5d                   	pop    %rbp
+1:0x5e : 5e                   	pop    %rsi
+1:0x5f : 5f                   	pop    %rdi
+1:0x60 : 60                   	(bad)
+1:0x61 : 61                   	(bad)
+1:0x62 : 62                   	.byte 0x62
+1:0x63 : 63                   	.byte 0x63
+1:0x64 : 64                   	fs
+1:0x65 : 65                   	gs
+1:0x66 : 66                   	data16
+1:0x67 : 67                   	addr32
+1:0x68 : 68                   	.byte 0x68
+1:0x69 : 69                   	.byte 0x69
+1:0x6a : 6a                   	.byte 0x6a
+1:0x6b : 6b                   	.byte 0x6b
+1:0x6c : 6c                   	insb   (%dx),%es
+1:0x6d : 6d                   	insl   (%dx),%es
+1:0x6e : 6e                   	outsb  %ds
+1:0x6f : 6f                   	outsl  %ds
+1:0x70 : 70                   	.byte 0x70
+1:0x71 : 71                   	.byte 0x71
+1:0x72 : 72                   	.byte 0x72
+1:0x73 : 73                   	.byte 0x73
+1:0x74 : 74                   	.byte 0x74
+1:0x75 : 75                   	.byte 0x75
+1:0x76 : 76                   	.byte 0x76
+1:0x77 : 77                   	.byte 0x77
+1:0x78 : 78                   	.byte 0x78
+1:0x79 : 79                   	.byte 0x79
+1:0x7a : 7a                   	.byte 0x7a
+1:0x7b : 7b                   	.byte 0x7b
+1:0x7c : 7c                   	.byte 0x7c
+1:0x7d : 7d                   	.byte 0x7d
+1:0x7e : 7e                   	.byte 0x7e
+1:0x7f : 7f                   	.byte 0x7f
+1:0x80 : 80                   	.byte 0x80
+1:0x81 : 81                   	.byte 0x81
+1:0x82 : 82                   	.byte 0x82
+1:0x83 : 83                   	.byte 0x83
+1:0x84 : 84                   	.byte 0x84
+1:0x85 : 85                   	.byte 0x85
+1:0x86 : 86                   	.byte 0x86
+1:0x87 : 87                   	.byte 0x87
+1:0x88 : 88                   	.byte 0x88
+1:0x89 : 89                   	.byte 0x89
+1:0x8a : 8a                   	.byte 0x8a
+1:0x8b : 8b                   	.byte 0x8b
+1:0x8c : 8c                   	.byte 0x8c
+1:0x8d : 8d                   	.byte 0x8d
+1:0x8e : 8e                   	.byte 0x8e
+1:0x8f : 8f                   	.byte 0x8f
+1:0x90 : 90                   	nop
+1:0x91 : 91                   	xchg   %eax,%ecx
+1:0x92 : 92                   	xchg   %eax,%edx
+1:0x93 : 93                   	xchg   %eax,%ebx
+1:0x94 : 94                   	xchg   %eax,%esp
+1:0x95 : 95                   	xchg   %eax,%ebp
+1:0x96 : 96                   	xchg   %eax,%esi
+1:0x97 : 97                   	xchg   %eax,%edi
+1:0x98 : 98                   	cwtl
+1:0x99 : 99                   	cltd
+1:0x9a : 9a                   	(bad)
+1:0x9b : 9b                   	fwait
+1:0x9c : 9c                   	pushfq
+1:0x9d : 9d                   	popfq
+1:0x9e : 9e                   	sahf
+1:0x9f : 9f                   	lahf
+1:0xa0 : a0                   	.byte 0xa0
+1:0xa1 : a1                   	.byte 0xa1
+1:0xa2 : a2                   	.byte 0xa2
+1:0xa3 : a3                   	.byte 0xa3
+1:0xa4 : a4                   	movsb  %ds
+1:0xa5 : a5                   	movsl  %ds
+1:0xa6 : a6                   	cmpsb  %es
+1:0xa7 : a7                   	cmpsl  %es
+1:0xa8 : a8                   	.byte 0xa8
+1:0xa9 : a9                   	.byte 0xa9
+1:0xaa : aa                   	stos   %al,%es
+1:0xab : ab                   	stos   %eax,%es
+1:0xac : ac                   	lods   %ds
+1:0xad : ad                   	lods   %ds
+1:0xae : ae                   	scas   %es
+1:0xaf : af                   	scas   %es
+1:0xb0 : b0                   	.byte 0xb0
+1:0xb1 : b1                   	.byte 0xb1
+1:0xb2 : b2                   	.byte 0xb2
+1:0xb3 : b3                   	.byte 0xb3
+1:0xb4 : b4                   	.byte 0xb4
+1:0xb5 : b5                   	.byte 0xb5
+1:0xb6 : b6                   	.byte 0xb6
+1:0xb7 : b7                   	.byte 0xb7
+1:0xb8 : b8                   	.byte 0xb8
+1:0xb9 : b9                   	.byte 0xb9
+1:0xba : ba                   	.byte 0xba
+1:0xbb : bb                   	.byte 0xbb
+1:0xbc : bc                   	.byte 0xbc
+1:0xbd : bd                   	.byte 0xbd
+1:0xbe : be                   	.byte 0xbe
+1:0xbf : bf                   	.byte 0xbf
+1:0xc0 : c0                   	.byte 0xc0
+1:0xc1 : c1                   	.byte 0xc1
+1:0xc2 : c2                   	.byte 0xc2
+1:0xc3 : c3                   	retq
+1:0xc4 : c4                   	.byte 0xc4
+1:0xc5 : c5                   	.byte 0xc5
+1:0xc6 : c6                   	.byte 0xc6
+1:0xc7 : c7                   	.byte 0xc7
+1:0xc8 : c8                   	.byte 0xc8
+1:0xc9 : c9                   	leaveq
+1:0xca : ca                   	.byte 0xca
+1:0xcb : cb                   	lret
+1:0xcc : cc                   	int3
+1:0xcd : cd                   	.byte 0xcd
+1:0xce : ce                   	(bad)
+1:0xcf : cf                   	iret
+1:0xd0 : d0                   	.byte 0xd0
+1:0xd1 : d1                   	.byte 0xd1
+1:0xd2 : d2                   	.byte 0xd2
+1:0xd3 : d3                   	.byte 0xd3
+1:0xd4 : d4                   	(bad)
+1:0xd5 : d5                   	(bad)
+1:0xd6 : d6                   	(bad)
+1:0xd7 : d7                   	xlat   %ds
+1:0xd8 : d8                   	.byte 0xd8
+1:0xd9 : d9                   	.byte 0xd9
+1:0xda : da                   	.byte 0xda
+1:0xdb : db                   	.byte 0xdb
+1:0xdc : dc                   	.byte 0xdc
+1:0xdd : dd                   	.byte 0xdd
+1:0xde : de                   	.byte 0xde
+1:0xdf : df                   	.byte 0xdf
+1:0xe0 : e0                   	.byte 0xe0
+1:0xe1 : e1                   	.byte 0xe1
+1:0xe2 : e2                   	.byte 0xe2
+1:0xe3 : e3                   	.byte 0xe3
+1:0xe4 : e4                   	.byte 0xe4
+1:0xe5 : e5                   	.byte 0xe5
+1:0xe6 : e6                   	.byte 0xe6
+1:0xe7 : e7                   	.byte 0xe7
+1:0xe8 : e8                   	.byte 0xe8
+1:0xe9 : e9                   	.byte 0xe9
+1:0xea : ea                   	(bad)
+1:0xeb : eb                   	.byte 0xeb
+1:0xec : ec                   	in     (%dx),%al
+1:0xed : ed                   	in     (%dx),%eax
+1:0xee : ee                   	out    %al,(%dx)
+1:0xef : ef                   	out    %eax,(%dx)
+1:0xf0 : f0                   	lock
+1:0xf1 : f1                   	icebp
+1:0xf2 : f2                   	repnz
+1:0xf3 : f3                   	repz
+1:0xf4 : f4                   	hlt
+1:0xf5 : f5                   	cmc
+1:0xf6 : f6                   	.byte 0xf6
+1:0xf7 : f7                   	.byte 0xf7
+1:0xf8 : f8                   	clc
+1:0xf9 : f9                   	stc
+1:0xfa : fa                   	cli
+1:0xfb : fb                   	sti
+1:0xfc : fc                   	cld
+1:0xfd : fd                   	std
+1:0xfe : fe                   	.byte 0xfe
+1:0xff : ff                   	.byte 0xff
+2:0x0 : ...
+2:0x1 : 01 01                	add    %eax,(%rcx)
+2:0x2 : 02 02                	add    (%rdx),%al
+2:0x3 : 03 03                	add    (%rbx),%eax
+2:0x4 : 04 04                	add    $0x4,%al
+2:0x5 : 05                   	.byte 0x5
+2:0x6 : 06                   	(bad)
+2:0x7 : 07                   	(bad)
+2:0x8 : 08 08                	or     %cl,(%rax)
+2:0x9 : 09 09                	or     %ecx,(%rcx)
+2:0xa : 0a 0a                	or     (%rdx),%cl
+2:0xb : 0b 0b                	or     (%rbx),%ecx
+2:0xc : 0c 0c                	or     $0xc,%al
+2:0xd : 0d                   	.byte 0xd
+2:0xe : 0e                   	(bad)
+2:0xf : 
+2:0x10 : 10 10                	adc    %dl,(%rax)
+2:0x11 : 11 11                	adc    %edx,(%rcx)
+2:0x12 : 12 12                	adc    (%rdx),%dl
+2:0x13 : 13 13                	adc    (%rbx),%edx
+2:0x14 : 14 14                	adc    $0x14,%al
+2:0x15 : 15                   	.byte 0x15
+2:0x16 : 16                   	(bad)
+2:0x17 : 17                   	(bad)
+2:0x18 : 18 18                	sbb    %bl,(%rax)
+2:0x19 : 19 19                	sbb    %ebx,(%rcx)
+2:0x1a : 1a 1a                	sbb    (%rdx),%bl
+2:0x1b : 1b 1b                	sbb    (%rbx),%ebx
+2:0x1c : 1c 1c                	sbb    $0x1c,%al
+2:0x1d : 1d                   	.byte 0x1d
+2:0x1e : 1e                   	(bad)
+2:0x1f : 1f                   	(bad)
+2:0x20 : 20 20                	and    %ah,(%rax)
+2:0x21 : 21 21                	and    %esp,(%rcx)
+2:0x22 : 22 22                	and    (%rdx),%ah
+2:0x23 : 23 23                	and    (%rbx),%esp
+2:0x24 : 24 24                	and    $0x24,%al
+2:0x25 : 25                   	.byte 0x25
+2:0x26 : 26                   	es
+2:0x27 : 27                   	(bad)
+2:0x28 : 28 28                	sub    %ch,(%rax)
+2:0x29 : 29 29                	sub    %ebp,(%rcx)
+2:0x2a : 2a 2a                	sub    (%rdx),%ch
+2:0x2b : 2b 2b                	sub    (%rbx),%ebp
+2:0x2c : 2c 2c                	sub    $0x2c,%al
+2:0x2d : 2d                   	.byte 0x2d
+2:0x2e : 2e                   	cs
+2:0x2f : 2f                   	(bad)
+2:0x30 : 30 30                	xor    %dh,(%rax)
+2:0x31 : 31 31                	xor    %esi,(%rcx)
+2:0x32 : 32 32                	xor    (%rdx),%dh
+2:0x33 : 33 33                	xor    (%rbx),%esi
+2:0x34 : 34 34                	xor    $0x34,%al
+2:0x35 : 35                   	.byte 0x35
+2:0x36 : 36                   	ss
+2:0x37 : 37                   	(bad)
+2:0x38 : 38 38                	cmp    %bh,(%rax)
+2:0x39 : 39 39                	cmp    %edi,(%rcx)
+2:0x3a : 3a 3a                	cmp    (%rdx),%bh
+2:0x3b : 3b 3b                	cmp    (%rbx),%edi
+2:0x3c : 3c 3c                	cmp    $0x3c,%al
+2:0x3d : 3d                   	.byte 0x3d
+2:0x3e : 3e                   	ds
+2:0x3f : 3f                   	(bad)
+2:0x40 : 40                   	rex
+2:0x41 : 41                   	rex.B
+2:0x42 : 42                   	rex.X
+2:0x43 : 43                   	rex.XB
+2:0x44 : 44                   	rex.R
+2:0x45 : 45                   	rex.RB
+2:0x46 : 46                   	rex.RX
+2:0x47 : 47                   	rex.RXB
+2:0x48 : 48                   	rex.W
+2:0x49 : 49                   	rex.WB
+2:0x4a : 4a                   	rex.WX
+2:0x4b : 4b                   	rex.WXB
+2:0x4c : 4c                   	rex.WR
+2:0x4d : 4d                   	rex.WRB
+2:0x4e : 4e                   	rex.WRX
+2:0x4f : 4f                   	rex.WRXB
+2:0x50 : 50                   	push   %rax
+2:0x51 : 51                   	push   %rcx
+2:0x52 : 52                   	push   %rdx
+2:0x53 : 53                   	push   %rbx
+2:0x54 : 54                   	push   %rsp
+2:0x55 : 55                   	push   %rbp
+2:0x56 : 56                   	push   %rsi
+2:0x57 : 57                   	push   %rdi
+2:0x58 : 58                   	pop    %rax
+2:0x59 : 59                   	pop    %rcx
+2:0x5a : 5a                   	pop    %rdx
+2:0x5b : 5b                   	pop    %rbx
+2:0x5c : 5c                   	pop    %rsp
+2:0x5d : 5d                   	pop    %rbp
+2:0x5e : 5e                   	pop    %rsi
+2:0x5f : 5f                   	pop    %rdi
+2:0x60 : 60                   	(bad)
+2:0x61 : 61                   	(bad)
+2:0x62 : 62                   	.byte 0x62
+2:0x63 : 63                   	.byte 0x63
+2:0x64 : 64                   	fs
+2:0x65 : 65                   	gs
+2:0x66 : 66                   	data16
+2:0x67 : 67                   	addr32
+2:0x68 : 68                   	.byte 0x68
+2:0x69 : 69                   	.byte 0x69
+2:0x6a : 6a 6a                	pushq  $0x6a
+2:0x6b : 6b                   	.byte 0x6b
+2:0x6c : 6c                   	insb   (%dx),%es
+2:0x6d : 6d                   	insl   (%dx),%es
+2:0x6e : 6e                   	outsb  %ds
+2:0x6f : 6f                   	outsl  %ds
+2:0x70 : 70 70                	jo     4000f2 <_start+0x72>
+2:0x71 : 71 71                	jno    4000f3 <_start+0x73>
+2:0x72 : 72 72                	jb     4000f4 <_start+0x74>
+2:0x73 : 73 73                	jae    4000f5 <_start+0x75>
+2:0x74 : 74 74                	je     4000f6 <_start+0x76>
+2:0x75 : 75 75                	jne    4000f7 <_start+0x77>
+2:0x76 : 76 76                	jbe    4000f8 <_start+0x78>
+2:0x77 : 77 77                	ja     4000f9 <_start+0x79>
+2:0x78 : 78 78                	js     4000fa <_start+0x7a>
+2:0x79 : 79 79                	jns    4000fb <_start+0x7b>
+2:0x7a : 7a 7a                	jp     4000fc <_start+0x7c>
+2:0x7b : 7b 7b                	jnp    4000fd <_start+0x7d>
+2:0x7c : 7c 7c                	jl     4000fe <_start+0x7e>
+2:0x7d : 7d 7d                	jge    4000ff <_start+0x7f>
+2:0x7e : 7e 7e                	jle    400100 <_start+0x80>
+2:0x7f : 7f 7f                	jg     400101 <_start+0x81>
+2:0x80 : 80                   	.byte 0x80
+2:0x81 : 81                   	.byte 0x81
+2:0x82 : 82                   	.byte 0x82
+2:0x83 : 83                   	.byte 0x83
+2:0x84 : 84                   	.byte 0x84
+2:0x85 : 85                   	.byte 0x85
+2:0x86 : 86                   	.byte 0x86
+2:0x87 : 87                   	.byte 0x87
+2:0x88 : 88                   	.byte 0x88
+2:0x89 : 89                   	.byte 0x89
+2:0x8a : 8a                   	.byte 0x8a
+2:0x8b : 8b                   	.byte 0x8b
+2:0x8c : 8c                   	.byte 0x8c
+2:0x8d : 8d                   	.byte 0x8d
+2:0x8e : 8e                   	.byte 0x8e
+2:0x8f : 8f                   	.byte 0x8f
+2:0x90 : 90                   	nop
+2:0x91 : 91                   	xchg   %eax,%ecx
+2:0x92 : 92                   	xchg   %eax,%edx
+2:0x93 : 93                   	xchg   %eax,%ebx
+2:0x94 : 94                   	xchg   %eax,%esp
+2:0x95 : 95                   	xchg   %eax,%ebp
+2:0x96 : 96                   	xchg   %eax,%esi
+2:0x97 : 97                   	xchg   %eax,%edi
+2:0x98 : 98                   	cwtl
+2:0x99 : 99                   	cltd
+2:0x9a : 9a                   	(bad)
+2:0x9b : 9b                   	fwait
+2:0x9c : 9c                   	pushfq
+2:0x9d : 9d                   	popfq
+2:0x9e : 9e                   	sahf
+2:0x9f : 9f                   	lahf
+2:0xa0 : a0                   	.byte 0xa0
+2:0xa1 : a1                   	.byte 0xa1
+2:0xa2 : a2                   	.byte 0xa2
+2:0xa3 : a3                   	.byte 0xa3
+2:0xa4 : a4                   	movsb  %ds
+2:0xa5 : a5                   	movsl  %ds
+2:0xa6 : a6                   	cmpsb  %es
+2:0xa7 : a7                   	cmpsl  %es
+2:0xa8 : a8 a8                	test   $0xa8,%al
+2:0xa9 : a9                   	.byte 0xa9
+2:0xaa : aa                   	stos   %al,%es
+2:0xab : ab                   	stos   %eax,%es
+2:0xac : ac                   	lods   %ds
+2:0xad : ad                   	lods   %ds
+2:0xae : ae                   	scas   %es
+2:0xaf : af                   	scas   %es
+2:0xb0 : b0 b0                	mov    $0xb0,%al
+2:0xb1 : b1 b1                	mov    $0xb1,%cl
+2:0xb2 : b2 b2                	mov    $0xb2,%dl
+2:0xb3 : b3 b3                	mov    $0xb3,%bl
+2:0xb4 : b4 b4                	mov    $0xb4,%ah
+2:0xb5 : b5 b5                	mov    $0xb5,%ch
+2:0xb6 : b6 b6                	mov    $0xb6,%dh
+2:0xb7 : b7 b7                	mov    $0xb7,%bh
+2:0xb8 : b8                   	.byte 0xb8
+2:0xb9 : b9                   	.byte 0xb9
+2:0xba : ba                   	.byte 0xba
+2:0xbb : bb                   	.byte 0xbb
+2:0xbc : bc                   	.byte 0xbc
+2:0xbd : bd                   	.byte 0xbd
+2:0xbe : be                   	.byte 0xbe
+2:0xbf : bf                   	.byte 0xbf
+2:0xc0 : c0                   	.byte 0xc0
+2:0xc1 : c1                   	.byte 0xc1
+2:0xc2 : c2                   	.byte 0xc2
+2:0xc3 : c3                   	retq
+2:0xc4 : c4                   	.byte 0xc4
+2:0xc5 : c5                   	.byte 0xc5
+2:0xc6 : c6                   	.byte 0xc6
+2:0xc7 : c7                   	.byte 0xc7
+2:0xc8 : c8                   	.byte 0xc8
+2:0xc9 : c9                   	leaveq
+2:0xca : ca                   	.byte 0xca
+2:0xcb : cb                   	lret
+2:0xcc : cc                   	int3
+2:0xcd : cd cd                	int    $0xcd
+2:0xce : ce                   	(bad)
+2:0xcf : cf                   	iret
+2:0xd0 : d0 d0                	rcl    %al
+2:0xd1 : d1 d1                	rcl    %ecx
+2:0xd2 : d2 d2                	rcl    %cl,%dl
+2:0xd3 : d3 d3                	rcl    %cl,%ebx
+2:0xd4 : d4                   	(bad)
+2:0xd5 : d5                   	(bad)
+2:0xd6 : d6                   	(bad)
+2:0xd7 : d7                   	xlat   %ds
+2:0xd8 : d8 d8                	fcomp  %st(0)
+2:0xd9 : d9 d9                	(bad)
+2:0xda : da da                	fcmovu %st(2),%st
+2:0xdb : db db                	fcmovnu %st(3),%st
+2:0xdc : dc dc                	(bad)
+2:0xdd : dd dd                	fstp   %st(5)
+2:0xde : de de                	(bad)
+2:0xdf : df df                	(bad)
+2:0xe0 : e0 e0                	loopne 400062 <_start-0x1e>
+2:0xe1 : e1 e1                	loope  400063 <_start-0x1d>
+2:0xe2 : e2 e2                	loop   400064 <_start-0x1c>
+2:0xe3 : e3 e3                	jrcxz  400065 <_start-0x1b>
+2:0xe4 : e4 e4                	in     $0xe4,%al
+2:0xe5 : e5 e5                	in     $0xe5,%eax
+2:0xe6 : e6 e6                	out    %al,$0xe6
+2:0xe7 : e7 e7                	out    %eax,$0xe7
+2:0xe8 : e8                   	.byte 0xe8
+2:0xe9 : e9                   	.byte 0xe9
+2:0xea : ea                   	(bad)
+2:0xeb : eb eb                	jmp    40006d <_start-0x13>
+2:0xec : ec                   	in     (%dx),%al
+2:0xed : ed                   	in     (%dx),%eax
+2:0xee : ee                   	out    %al,(%dx)
+2:0xef : ef                   	out    %eax,(%dx)
+2:0xf0 : f0                   	lock
+2:0xf1 : f1                   	icebp
+2:0xf2 : f2                   	repnz
+2:0xf3 : f3                   	repz
+2:0xf4 : f4                   	hlt
+2:0xf5 : f5                   	cmc
+2:0xf6 : f6 f6                	div    %dh
+2:0xf7 : f7 f7                	div    %edi
+2:0xf8 : f8                   	clc
+2:0xf9 : f9                   	stc
+2:0xfa : fa                   	cli
+2:0xfb : fb                   	sti
+2:0xfc : fc                   	cld
+2:0xfd : fd                   	std
+2:0xfe : fe                   	.byte 0xfe
+2:0xff : ff                   	.byte 0xff
+3:0x0 : ...
+3:0x1 : 01                   	.byte 0x1
+3:0x2 : 02                   	.byte 0x2
+3:0x3 : 03                   	.byte 0x3
+3:0x4 : 04                   	.byte 0x4
+3:0x5 : 05                   	.byte 0x5
+3:0x6 : 06                   	(bad)
+3:0x7 : 07                   	(bad)
+3:0x8 : 08                   	.byte 0x8
+3:0x9 : 09                   	.byte 0x9
+3:0xa : 0a                   	.byte 0xa
+3:0xb : 0b                   	.byte 0xb
+3:0xc : 0c                   	.byte 0xc
+3:0xd : 0d                   	.byte 0xd
+3:0xe : 0e                   	(bad)
+3:0xf : 
+3:0x10 : 10                   	.byte 0x10
+3:0x11 : 11                   	.byte 0x11
+3:0x12 : 12                   	.byte 0x12
+3:0x13 : 13                   	.byte 0x13
+3:0x14 : 14                   	.byte 0x14
+3:0x15 : 15                   	.byte 0x15
+3:0x16 : 16                   	(bad)
+3:0x17 : 17                   	(bad)
+3:0x18 : 18                   	.byte 0x18
+3:0x19 : 19                   	.byte 0x19
+3:0x1a : 1a                   	.byte 0x1a
+3:0x1b : 1b                   	.byte 0x1b
+3:0x1c : 1c                   	.byte 0x1c
+3:0x1d : 1d                   	.byte 0x1d
+3:0x1e : 1e                   	(bad)
+3:0x1f : 1f                   	(bad)
+3:0x20 : 20                   	.byte 0x20
+3:0x21 : 21                   	.byte 0x21
+3:0x22 : 22                   	.byte 0x22
+3:0x23 : 23                   	.byte 0x23
+3:0x24 : 24                   	.byte 0x24
+3:0x25 : 25                   	.byte 0x25
+3:0x26 : 26                   	es
+3:0x27 : 27                   	(bad)
+3:0x28 : 28                   	.byte 0x28
+3:0x29 : 29                   	.byte 0x29
+3:0x2a : 2a                   	.byte 0x2a
+3:0x2b : 2b                   	.byte 0x2b
+3:0x2c : 2c                   	.byte 0x2c
+3:0x2d : 2d                   	.byte 0x2d
+3:0x2e : 2e                   	cs
+3:0x2f : 2f                   	(bad)
+3:0x30 : 30                   	.byte 0x30
+3:0x31 : 31                   	.byte 0x31
+3:0x32 : 32                   	.byte 0x32
+3:0x33 : 33                   	.byte 0x33
+3:0x34 : 34                   	.byte 0x34
+3:0x35 : 35                   	.byte 0x35
+3:0x36 : 36                   	ss
+3:0x37 : 37                   	(bad)
+3:0x38 : 38                   	.byte 0x38
+3:0x39 : 39                   	.byte 0x39
+3:0x3a : 3a                   	.byte 0x3a
+3:0x3b : 3b                   	.byte 0x3b
+3:0x3c : 3c                   	.byte 0x3c
+3:0x3d : 3d                   	.byte 0x3d
+3:0x3e : 3e                   	ds
+3:0x3f : 3f                   	(bad)
+3:0x40 : 40                   	rex
+3:0x41 : 41                   	rex.B
+3:0x42 : 42                   	rex.X
+3:0x43 : 43                   	rex.XB
+3:0x44 : 44                   	rex.R
+3:0x45 : 45                   	rex.RB
+3:0x46 : 46                   	rex.RX
+3:0x47 : 47                   	rex.RXB
+3:0x48 : 48                   	rex.W
+3:0x49 : 49                   	rex.WB
+3:0x4a : 4a                   	rex.WX
+3:0x4b : 4b                   	rex.WXB
+3:0x4c : 4c                   	rex.WR
+3:0x4d : 4d                   	rex.WRB
+3:0x4e : 4e                   	rex.WRX
+3:0x4f : 4f                   	rex.WRXB
+3:0x50 : 50                   	push   %rax
+3:0x51 : 51                   	push   %rcx
+3:0x52 : 52                   	push   %rdx
+3:0x53 : 53                   	push   %rbx
+3:0x54 : 54                   	push   %rsp
+3:0x55 : 55                   	push   %rbp
+3:0x56 : 56                   	push   %rsi
+3:0x57 : 57                   	push   %rdi
+3:0x58 : 58                   	pop    %rax
+3:0x59 : 59                   	pop    %rcx
+3:0x5a : 5a                   	pop    %rdx
+3:0x5b : 5b                   	pop    %rbx
+3:0x5c : 5c                   	pop    %rsp
+3:0x5d : 5d                   	pop    %rbp
+3:0x5e : 5e                   	pop    %rsi
+3:0x5f : 5f                   	pop    %rdi
+3:0x60 : 60                   	(bad)
+3:0x61 : 61                   	(bad)
+3:0x62 : 62                   	.byte 0x62
+3:0x63 : 63 63 63             	movslq 0x63(%rbx),%esp
+3:0x64 : 64                   	fs
+3:0x65 : 65                   	gs
+3:0x66 : 66                   	data16
+3:0x67 : 67                   	addr32
+3:0x68 : 68                   	.byte 0x68
+3:0x69 : 69                   	.byte 0x69
+3:0x6a : 6a                   	.byte 0x6a
+3:0x6b : 6b                   	.byte 0x6b
+3:0x6c : 6c                   	insb   (%dx),%es
+3:0x6d : 6d                   	insl   (%dx),%es
+3:0x6e : 6e                   	outsb  %ds
+3:0x6f : 6f                   	outsl  %ds
+3:0x70 : 70                   	.byte 0x70
+3:0x71 : 71                   	.byte 0x71
+3:0x72 : 72                   	.byte 0x72
+3:0x73 : 73                   	.byte 0x73
+3:0x74 : 74                   	.byte 0x74
+3:0x75 : 75                   	.byte 0x75
+3:0x76 : 76                   	.byte 0x76
+3:0x77 : 77                   	.byte 0x77
+3:0x78 : 78                   	.byte 0x78
+3:0x79 : 79                   	.byte 0x79
+3:0x7a : 7a                   	.byte 0x7a
+3:0x7b : 7b                   	.byte 0x7b
+3:0x7c : 7c                   	.byte 0x7c
+3:0x7d : 7d                   	.byte 0x7d
+3:0x7e : 7e                   	.byte 0x7e
+3:0x7f : 7f                   	.byte 0x7f
+3:0x80 : 80                   	.byte 0x80
+3:0x81 : 81                   	.byte 0x81
+3:0x82 : 82                   	.byte 0x82
+3:0x83 : 83                   	.byte 0x83
+3:0x84 : 84                   	.byte 0x84
+3:0x85 : 85                   	.byte 0x85
+3:0x86 : 86                   	.byte 0x86
+3:0x87 : 87                   	.byte 0x87
+3:0x88 : 88                   	.byte 0x88
+3:0x89 : 89                   	.byte 0x89
+3:0x8a : 8a                   	.byte 0x8a
+3:0x8b : 8b                   	.byte 0x8b
+3:0x8c : 8c                   	.byte 0x8c
+3:0x8d : 8d                   	.byte 0x8d
+3:0x8e : 8e                   	.byte 0x8e
+3:0x8f : 8f                   	.byte 0x8f
+3:0x90 : 90                   	nop
+3:0x91 : 91                   	xchg   %eax,%ecx
+3:0x92 : 92                   	xchg   %eax,%edx
+3:0x93 : 93                   	xchg   %eax,%ebx
+3:0x94 : 94                   	xchg   %eax,%esp
+3:0x95 : 95                   	xchg   %eax,%ebp
+3:0x96 : 96                   	xchg   %eax,%esi
+3:0x97 : 97                   	xchg   %eax,%edi
+3:0x98 : 98                   	cwtl
+3:0x99 : 99                   	cltd
+3:0x9a : 9a                   	(bad)
+3:0x9b : 9b                   	fwait
+3:0x9c : 9c                   	pushfq
+3:0x9d : 9d                   	popfq
+3:0x9e : 9e                   	sahf
+3:0x9f : 9f                   	lahf
+3:0xa0 : a0                   	.byte 0xa0
+3:0xa1 : a1                   	.byte 0xa1
+3:0xa2 : a2                   	.byte 0xa2
+3:0xa3 : a3                   	.byte 0xa3
+3:0xa4 : a4                   	movsb  %ds
+3:0xa5 : a5                   	movsl  %ds
+3:0xa6 : a6                   	cmpsb  %es
+3:0xa7 : a7                   	cmpsl  %es
+3:0xa8 : a8                   	.byte 0xa8
+3:0xa9 : a9                   	.byte 0xa9
+3:0xaa : aa                   	stos   %al,%es
+3:0xab : ab                   	stos   %eax,%es
+3:0xac : ac                   	lods   %ds
+3:0xad : ad                   	lods   %ds
+3:0xae : ae                   	scas   %es
+3:0xaf : af                   	scas   %es
+3:0xb0 : b0                   	.byte 0xb0
+3:0xb1 : b1                   	.byte 0xb1
+3:0xb2 : b2                   	.byte 0xb2
+3:0xb3 : b3                   	.byte 0xb3
+3:0xb4 : b4                   	.byte 0xb4
+3:0xb5 : b5                   	.byte 0xb5
+3:0xb6 : b6                   	.byte 0xb6
+3:0xb7 : b7                   	.byte 0xb7
+3:0xb8 : b8                   	.byte 0xb8
+3:0xb9 : b9                   	.byte 0xb9
+3:0xba : ba                   	.byte 0xba
+3:0xbb : bb                   	.byte 0xbb
+3:0xbc : bc                   	.byte 0xbc
+3:0xbd : bd                   	.byte 0xbd
+3:0xbe : be                   	.byte 0xbe
+3:0xbf : bf                   	.byte 0xbf
+3:0xc0 : c0 c0 c0             	rol    $0xc0,%al
+3:0xc1 : c1 c1 c1             	rol    $0xc1,%ecx
+3:0xc2 : c2 c2 c2             	retq   $0xc2c2
+3:0xc3 : c3                   	retq
+3:0xc4 : c4                   	.byte 0xc4
+3:0xc5 : c5                   	.byte 0xc5
+3:0xc6 : c6 c6 c6             	mov    $0xc6,%dh
+3:0xc7 : c7                   	.byte 0xc7
+3:0xc8 : c8                   	.byte 0xc8
+3:0xc9 : c9                   	leaveq
+3:0xca : ca ca ca             	lret   $0xcaca
+3:0xcb : cb                   	lret
+3:0xcc : cc                   	int3
+3:0xcd : cd                   	.byte 0xcd
+3:0xce : ce                   	(bad)
+3:0xcf : cf                   	iret
+3:0xd0 : d0                   	.byte 0xd0
+3:0xd1 : d1                   	.byte 0xd1
+3:0xd2 : d2                   	.byte 0xd2
+3:0xd3 : d3                   	.byte 0xd3
+3:0xd4 : d4                   	(bad)
+3:0xd5 : d5                   	(bad)
+3:0xd6 : d6                   	(bad)
+3:0xd7 : d7                   	xlat   %ds
+3:0xd8 : d8                   	.byte 0xd8
+3:0xd9 : d9                   	.byte 0xd9
+3:0xda : da                   	.byte 0xda
+3:0xdb : db                   	.byte 0xdb
+3:0xdc : dc                   	.byte 0xdc
+3:0xdd : dd                   	.byte 0xdd
+3:0xde : de                   	.byte 0xde
+3:0xdf : df                   	.byte 0xdf
+3:0xe0 : e0                   	.byte 0xe0
+3:0xe1 : e1                   	.byte 0xe1
+3:0xe2 : e2                   	.byte 0xe2
+3:0xe3 : e3                   	.byte 0xe3
+3:0xe4 : e4                   	.byte 0xe4
+3:0xe5 : e5                   	.byte 0xe5
+3:0xe6 : e6                   	.byte 0xe6
+3:0xe7 : e7                   	.byte 0xe7
+3:0xe8 : e8                   	.byte 0xe8
+3:0xe9 : e9                   	.byte 0xe9
+3:0xea : ea                   	(bad)
+3:0xeb : eb                   	.byte 0xeb
+3:0xec : ec                   	in     (%dx),%al
+3:0xed : ed                   	in     (%dx),%eax
+3:0xee : ee                   	out    %al,(%dx)
+3:0xef : ef                   	out    %eax,(%dx)
+3:0xf0 : f0                   	lock
+3:0xf1 : f1                   	icebp
+3:0xf2 : f2                   	repnz
+3:0xf3 : f3                   	repz
+3:0xf4 : f4                   	hlt
+3:0xf5 : f5                   	cmc
+3:0xf6 : f6                   	.byte 0xf6
+3:0xf7 : f7                   	.byte 0xf7
+3:0xf8 : f8                   	clc
+3:0xf9 : f9                   	stc
+3:0xfa : fa                   	cli
+3:0xfb : fb                   	sti
+3:0xfc : fc                   	cld
+3:0xfd : fd                   	std
+3:0xfe : fe                   	.byte 0xfe
+3:0xff : ff                   	.byte 0xff
+4:0x0 : ...
+4:0x1 : 01 01                	add    %eax,(%rcx)
+4:0x2 : 02 02                	add    (%rdx),%al
+4:0x3 : 03 03                	add    (%rbx),%eax
+4:0x4 : 04 04                	add    $0x4,%al
+4:0x5 : 05                   	.byte 0x5
+4:0x6 : 06                   	(bad)
+4:0x7 : 07                   	(bad)
+4:0x8 : 08 08                	or     %cl,(%rax)
+4:0x9 : 09 09                	or     %ecx,(%rcx)
+4:0xa : 0a 0a                	or     (%rdx),%cl
+4:0xb : 0b 0b                	or     (%rbx),%ecx
+4:0xc : 0c 0c                	or     $0xc,%al
+4:0xd : 0d                   	.byte 0xd
+4:0xe : 0e                   	(bad)
+4:0xf : 
+4:0x10 : 10 10                	adc    %dl,(%rax)
+4:0x11 : 11 11                	adc    %edx,(%rcx)
+4:0x12 : 12 12                	adc    (%rdx),%dl
+4:0x13 : 13 13                	adc    (%rbx),%edx
+4:0x14 : 14 14                	adc    $0x14,%al
+4:0x15 : 15                   	.byte 0x15
+4:0x16 : 16                   	(bad)
+4:0x17 : 17                   	(bad)
+4:0x18 : 18 18                	sbb    %bl,(%rax)
+4:0x19 : 19 19                	sbb    %ebx,(%rcx)
+4:0x1a : 1a 1a                	sbb    (%rdx),%bl
+4:0x1b : 1b 1b                	sbb    (%rbx),%ebx
+4:0x1c : 1c 1c                	sbb    $0x1c,%al
+4:0x1d : 1d                   	.byte 0x1d
+4:0x1e : 1e                   	(bad)
+4:0x1f : 1f                   	(bad)
+4:0x20 : 20 20                	and    %ah,(%rax)
+4:0x21 : 21 21                	and    %esp,(%rcx)
+4:0x22 : 22 22                	and    (%rdx),%ah
+4:0x23 : 23 23                	and    (%rbx),%esp
+4:0x24 : 24 24                	and    $0x24,%al
+4:0x25 : 25                   	.byte 0x25
+4:0x26 : 26                   	es
+4:0x27 : 27                   	(bad)
+4:0x28 : 28 28                	sub    %ch,(%rax)
+4:0x29 : 29 29                	sub    %ebp,(%rcx)
+4:0x2a : 2a 2a                	sub    (%rdx),%ch
+4:0x2b : 2b 2b                	sub    (%rbx),%ebp
+4:0x2c : 2c 2c                	sub    $0x2c,%al
+4:0x2d : 2d                   	.byte 0x2d
+4:0x2e : 2e                   	cs
+4:0x2f : 2f                   	(bad)
+4:0x30 : 30 30                	xor    %dh,(%rax)
+4:0x31 : 31 31                	xor    %esi,(%rcx)
+4:0x32 : 32 32                	xor    (%rdx),%dh
+4:0x33 : 33 33                	xor    (%rbx),%esi
+4:0x34 : 34 34                	xor    $0x34,%al
+4:0x35 : 35                   	.byte 0x35
+4:0x36 : 36                   	ss
+4:0x37 : 37                   	(bad)
+4:0x38 : 38 38                	cmp    %bh,(%rax)
+4:0x39 : 39 39                	cmp    %edi,(%rcx)
+4:0x3a : 3a 3a                	cmp    (%rdx),%bh
+4:0x3b : 3b 3b                	cmp    (%rbx),%edi
+4:0x3c : 3c 3c                	cmp    $0x3c,%al
+4:0x3d : 3d                   	.byte 0x3d
+4:0x3e : 3e                   	ds
+4:0x3f : 3f                   	(bad)
+4:0x40 : 40                   	rex
+4:0x41 : 41                   	rex.B
+4:0x42 : 42                   	rex.X
+4:0x43 : 43                   	rex.XB
+4:0x44 : 44                   	rex.R
+4:0x45 : 45                   	rex.RB
+4:0x46 : 46                   	rex.RX
+4:0x47 : 47                   	rex.RXB
+4:0x48 : 48                   	rex.W
+4:0x49 : 49                   	rex.WB
+4:0x4a : 4a                   	rex.WX
+4:0x4b : 4b                   	rex.WXB
+4:0x4c : 4c                   	rex.WR
+4:0x4d : 4d                   	rex.WRB
+4:0x4e : 4e                   	rex.WRX
+4:0x4f : 4f                   	rex.WRXB
+4:0x50 : 50                   	push   %rax
+4:0x51 : 51                   	push   %rcx
+4:0x52 : 52                   	push   %rdx
+4:0x53 : 53                   	push   %rbx
+4:0x54 : 54                   	push   %rsp
+4:0x55 : 55                   	push   %rbp
+4:0x56 : 56                   	push   %rsi
+4:0x57 : 57                   	push   %rdi
+4:0x58 : 58                   	pop    %rax
+4:0x59 : 59                   	pop    %rcx
+4:0x5a : 5a                   	pop    %rdx
+4:0x5b : 5b                   	pop    %rbx
+4:0x5c : 5c                   	pop    %rsp
+4:0x5d : 5d                   	pop    %rbp
+4:0x5e : 5e                   	pop    %rsi
+4:0x5f : 5f                   	pop    %rdi
+4:0x60 : 60                   	(bad)
+4:0x61 : 61                   	(bad)
+4:0x62 : 62                   	.byte 0x62
+4:0x63 : 63                   	.byte 0x63
+4:0x64 : 64                   	fs
+4:0x65 : 65                   	gs
+4:0x66 : 66                   	data16
+4:0x67 : 67                   	addr32
+4:0x68 : 68                   	.byte 0x68
+4:0x69 : 69                   	.byte 0x69
+4:0x6a : 6a 6a                	pushq  $0x6a
+4:0x6b : 6b 6b 6b 6b          	imul   $0x6b,0x6b(%rbx),%ebp
+4:0x6c : 6c                   	insb   (%dx),%es
+4:0x6d : 6d                   	insl   (%dx),%es
+4:0x6e : 6e                   	outsb  %ds
+4:0x6f : 6f                   	outsl  %ds
+4:0x70 : 70 70                	jo     4000f4 <_start+0x74>
+4:0x71 : 71 71                	jno    4000f5 <_start+0x75>
+4:0x72 : 72 72                	jb     4000f6 <_start+0x76>
+4:0x73 : 73 73                	jae    4000f7 <_start+0x77>
+4:0x74 : 74 74                	je     4000f8 <_start+0x78>
+4:0x75 : 75 75                	jne    4000f9 <_start+0x79>
+4:0x76 : 76 76                	jbe    4000fa <_start+0x7a>
+4:0x77 : 77 77                	ja     4000fb <_start+0x7b>
+4:0x78 : 78 78                	js     4000fc <_start+0x7c>
+4:0x79 : 79 79                	jns    4000fd <_start+0x7d>
+4:0x7a : 7a 7a                	jp     4000fe <_start+0x7e>
+4:0x7b : 7b 7b                	jnp    4000ff <_start+0x7f>
+4:0x7c : 7c 7c                	jl     400100 <_start+0x80>
+4:0x7d : 7d 7d                	jge    400101 <_start+0x81>
+4:0x7e : 7e 7e                	jle    400102 <_start+0x82>
+4:0x7f : 7f 7f                	jg     400103 <_start+0x83>
+4:0x80 : 80                   	.byte 0x80
+4:0x81 : 81                   	.byte 0x81
+4:0x82 : 82                   	.byte 0x82
+4:0x83 : 83                   	.byte 0x83
+4:0x84 : 84                   	.byte 0x84
+4:0x85 : 85                   	.byte 0x85
+4:0x86 : 86                   	.byte 0x86
+4:0x87 : 87                   	.byte 0x87
+4:0x88 : 88                   	.byte 0x88
+4:0x89 : 89                   	.byte 0x89
+4:0x8a : 8a                   	.byte 0x8a
+4:0x8b : 8b                   	.byte 0x8b
+4:0x8c : 8c                   	.byte 0x8c
+4:0x8d : 8d                   	.byte 0x8d
+4:0x8e : 8e                   	.byte 0x8e
+4:0x8f : 8f                   	.byte 0x8f
+4:0x90 : 90                   	nop
+4:0x91 : 91                   	xchg   %eax,%ecx
+4:0x92 : 92                   	xchg   %eax,%edx
+4:0x93 : 93                   	xchg   %eax,%ebx
+4:0x94 : 94                   	xchg   %eax,%esp
+4:0x95 : 95                   	xchg   %eax,%ebp
+4:0x96 : 96                   	xchg   %eax,%esi
+4:0x97 : 97                   	xchg   %eax,%edi
+4:0x98 : 98                   	cwtl
+4:0x99 : 99                   	cltd
+4:0x9a : 9a                   	(bad)
+4:0x9b : 9b                   	fwait
+4:0x9c : 9c                   	pushfq
+4:0x9d : 9d                   	popfq
+4:0x9e : 9e                   	sahf
+4:0x9f : 9f                   	lahf
+4:0xa0 : a0                   	.byte 0xa0
+4:0xa1 : a1                   	.byte 0xa1
+4:0xa2 : a2                   	.byte 0xa2
+4:0xa3 : a3                   	.byte 0xa3
+4:0xa4 : a4                   	movsb  %ds
+4:0xa5 : a5                   	movsl  %ds
+4:0xa6 : a6                   	cmpsb  %es
+4:0xa7 : a7                   	cmpsl  %es
+4:0xa8 : a8 a8                	test   $0xa8,%al
+4:0xa9 : a9                   	.byte 0xa9
+4:0xaa : aa                   	stos   %al,%es
+4:0xab : ab                   	stos   %eax,%es
+4:0xac : ac                   	lods   %ds
+4:0xad : ad                   	lods   %ds
+4:0xae : ae                   	scas   %es
+4:0xaf : af                   	scas   %es
+4:0xb0 : b0 b0                	mov    $0xb0,%al
+4:0xb1 : b1 b1                	mov    $0xb1,%cl
+4:0xb2 : b2 b2                	mov    $0xb2,%dl
+4:0xb3 : b3 b3                	mov    $0xb3,%bl
+4:0xb4 : b4 b4                	mov    $0xb4,%ah
+4:0xb5 : b5 b5                	mov    $0xb5,%ch
+4:0xb6 : b6 b6                	mov    $0xb6,%dh
+4:0xb7 : b7 b7                	mov    $0xb7,%bh
+4:0xb8 : b8                   	.byte 0xb8
+4:0xb9 : b9                   	.byte 0xb9
+4:0xba : ba                   	.byte 0xba
+4:0xbb : bb                   	.byte 0xbb
+4:0xbc : bc                   	.byte 0xbc
+4:0xbd : bd                   	.byte 0xbd
+4:0xbe : be                   	.byte 0xbe
+4:0xbf : bf                   	.byte 0xbf
+4:0xc0 : c0                   	.byte 0xc0
+4:0xc1 : c1                   	.byte 0xc1
+4:0xc2 : c2                   	.byte 0xc2
+4:0xc3 : c3                   	retq
+4:0xc4 : c4                   	.byte 0xc4
+4:0xc5 : c5                   	.byte 0xc5
+4:0xc6 : c6                   	.byte 0xc6
+4:0xc7 : c7                   	.byte 0xc7
+4:0xc8 : c8 c8 c8 c8          	enterq $0xc8c8,$0xc8
+4:0xc9 : c9                   	leaveq
+4:0xca : ca                   	.byte 0xca
+4:0xcb : cb                   	lret
+4:0xcc : cc                   	int3
+4:0xcd : cd cd                	int    $0xcd
+4:0xce : ce                   	(bad)
+4:0xcf : cf                   	iret
+4:0xd0 : d0 d0                	rcl    %al
+4:0xd1 : d1 d1                	rcl    %ecx
+4:0xd2 : d2 d2                	rcl    %cl,%dl
+4:0xd3 : d3 d3                	rcl    %cl,%ebx
+4:0xd4 : d4                   	(bad)
+4:0xd5 : d5                   	(bad)
+4:0xd6 : d6                   	(bad)
+4:0xd7 : d7                   	xlat   %ds
+4:0xd8 : d8 d8                	fcomp  %st(0)
+4:0xd9 : d9 d9                	(bad)
+4:0xda : da da                	fcmovu %st(2),%st
+4:0xdb : db db                	fcmovnu %st(3),%st
+4:0xdc : dc dc                	(bad)
+4:0xdd : dd dd                	fstp   %st(5)
+4:0xde : de de                	(bad)
+4:0xdf : df df                	(bad)
+4:0xe0 : e0 e0                	loopne 400064 <_start-0x1c>
+4:0xe1 : e1 e1                	loope  400065 <_start-0x1b>
+4:0xe2 : e2 e2                	loop   400066 <_start-0x1a>
+4:0xe3 : e3 e3                	jrcxz  400067 <_start-0x19>
+4:0xe4 : e4 e4                	in     $0xe4,%al
+4:0xe5 : e5 e5                	in     $0xe5,%eax
+4:0xe6 : e6 e6                	out    %al,$0xe6
+4:0xe7 : e7 e7                	out    %eax,$0xe7
+4:0xe8 : e8                   	.byte 0xe8
+4:0xe9 : e9                   	.byte 0xe9
+4:0xea : ea                   	(bad)
+4:0xeb : eb eb                	jmp    40006f <_start-0x11>
+4:0xec : ec                   	in     (%dx),%al
+4:0xed : ed                   	in     (%dx),%eax
+4:0xee : ee                   	out    %al,(%dx)
+4:0xef : ef                   	out    %eax,(%dx)
+4:0xf0 : f0                   	lock
+4:0xf1 : f1                   	icebp
+4:0xf2 : f2                   	repnz
+4:0xf3 : f3                   	repz
+4:0xf4 : f4                   	hlt
+4:0xf5 : f5                   	cmc
+4:0xf6 : f6 f6                	div    %dh
+4:0xf7 : f7 f7                	div    %edi
+4:0xf8 : f8                   	clc
+4:0xf9 : f9                   	stc
+4:0xfa : fa                   	cli
+4:0xfb : fb                   	sti
+4:0xfc : fc                   	cld
+4:0xfd : fd                   	std
+4:0xfe : fe                   	.byte 0xfe
+4:0xff : ff                   	.byte 0xff
+5:0x0 : ...
+5:0x1 : 01                   	.byte 0x1
+5:0x2 : 02                   	.byte 0x2
+5:0x3 : 03                   	.byte 0x3
+5:0x4 : 04                   	.byte 0x4
+5:0x5 : 05 05 05 05 05       	add    $0x5050505,%eax
+5:0x6 : 06                   	(bad)
+5:0x7 : 07                   	(bad)
+5:0x8 : 08                   	.byte 0x8
+5:0x9 : 09                   	.byte 0x9
+5:0xa : 0a                   	.byte 0xa
+5:0xb : 0b                   	.byte 0xb
+5:0xc : 0c                   	.byte 0xc
+5:0xd : 0d 0d 0d 0d 0d       	or     $0xd0d0d0d,%eax
+5:0xe : 0e                   	(bad)
+5:0xf : 
+5:0x10 : 10                   	.byte 0x10
+5:0x11 : 11                   	.byte 0x11
+5:0x12 : 12                   	.byte 0x12
+5:0x13 : 13                   	.byte 0x13
+5:0x14 : 14                   	.byte 0x14
+5:0x15 : 15 15 15 15 15       	adc    $0x15151515,%eax
+5:0x16 : 16                   	(bad)
+5:0x17 : 17                   	(bad)
+5:0x18 : 18                   	.byte 0x18
+5:0x19 : 19                   	.byte 0x19
+5:0x1a : 1a                   	.byte 0x1a
+5:0x1b : 1b                   	.byte 0x1b
+5:0x1c : 1c                   	.byte 0x1c
+5:0x1d : 1d 1d 1d 1d 1d       	sbb    $0x1d1d1d1d,%eax
+5:0x1e : 1e                   	(bad)
+5:0x1f : 1f                   	(bad)
+5:0x20 : 20                   	.byte 0x20
+5:0x21 : 21                   	.byte 0x21
+5:0x22 : 22                   	.byte 0x22
+5:0x23 : 23                   	.byte 0x23
+5:0x24 : 24                   	.byte 0x24
+5:0x25 : 25 25 25 25 25       	and    $0x25252525,%eax
+5:0x26 : 26                   	es
+5:0x27 : 27                   	(bad)
+5:0x28 : 28                   	.byte 0x28
+5:0x29 : 29                   	.byte 0x29
+5:0x2a : 2a                   	.byte 0x2a
+5:0x2b : 2b                   	.byte 0x2b
+5:0x2c : 2c                   	.byte 0x2c
+5:0x2d : 2d 2d 2d 2d 2d       	sub    $0x2d2d2d2d,%eax
+5:0x2e : 2e                   	cs
+5:0x2f : 2f                   	(bad)
+5:0x30 : 30                   	.byte 0x30
+5:0x31 : 31                   	.byte 0x31
+5:0x32 : 32                   	.byte 0x32
+5:0x33 : 33                   	.byte 0x33
+5:0x34 : 34                   	.byte 0x34
+5:0x35 : 35 35 35 35 35       	xor    $0x35353535,%eax
+5:0x36 : 36                   	ss
+5:0x37 : 37                   	(bad)
+5:0x38 : 38                   	.byte 0x38
+5:0x39 : 39                   	.byte 0x39
+5:0x3a : 3a                   	.byte 0x3a
+5:0x3b : 3b                   	.byte 0x3b
+5:0x3c : 3c                   	.byte 0x3c
+5:0x3d : 3d 3d 3d 3d 3d       	cmp    $0x3d3d3d3d,%eax
+5:0x3e : 3e                   	ds
+5:0x3f : 3f                   	(bad)
+5:0x40 : 40                   	rex
+5:0x41 : 41                   	rex.B
+5:0x42 : 42                   	rex.X
+5:0x43 : 43                   	rex.XB
+5:0x44 : 44                   	rex.R
+5:0x45 : 45                   	rex.RB
+5:0x46 : 46                   	rex.RX
+5:0x47 : 47                   	rex.RXB
+5:0x48 : 48                   	rex.W
+5:0x49 : 49                   	rex.WB
+5:0x4a : 4a                   	rex.WX
+5:0x4b : 4b                   	rex.WXB
+5:0x4c : 4c                   	rex.WR
+5:0x4d : 4d                   	rex.WRB
+5:0x4e : 4e                   	rex.WRX
+5:0x4f : 4f                   	rex.WRXB
+5:0x50 : 50                   	push   %rax
+5:0x51 : 51                   	push   %rcx
+5:0x52 : 52                   	push   %rdx
+5:0x53 : 53                   	push   %rbx
+5:0x54 : 54                   	push   %rsp
+5:0x55 : 55                   	push   %rbp
+5:0x56 : 56                   	push   %rsi
+5:0x57 : 57                   	push   %rdi
+5:0x58 : 58                   	pop    %rax
+5:0x59 : 59                   	pop    %rcx
+5:0x5a : 5a                   	pop    %rdx
+5:0x5b : 5b                   	pop    %rbx
+5:0x5c : 5c                   	pop    %rsp
+5:0x5d : 5d                   	pop    %rbp
+5:0x5e : 5e                   	pop    %rsi
+5:0x5f : 5f                   	pop    %rdi
+5:0x60 : 60                   	(bad)
+5:0x61 : 61                   	(bad)
+5:0x62 : 62                   	.byte 0x62
+5:0x63 : 63                   	.byte 0x63
+5:0x64 : 64                   	fs
+5:0x65 : 65                   	gs
+5:0x66 : 66                   	data16
+5:0x67 : 67                   	addr32
+5:0x68 : 68 68 68 68 68       	pushq  $0x68686868
+5:0x69 : 69                   	.byte 0x69
+5:0x6a : 6a                   	.byte 0x6a
+5:0x6b : 6b                   	.byte 0x6b
+5:0x6c : 6c                   	insb   (%dx),%es
+5:0x6d : 6d                   	insl   (%dx),%es
+5:0x6e : 6e                   	outsb  %ds
+5:0x6f : 6f                   	outsl  %ds
+5:0x70 : 70                   	.byte 0x70
+5:0x71 : 71                   	.byte 0x71
+5:0x72 : 72                   	.byte 0x72
+5:0x73 : 73                   	.byte 0x73
+5:0x74 : 74                   	.byte 0x74
+5:0x75 : 75                   	.byte 0x75
+5:0x76 : 76                   	.byte 0x76
+5:0x77 : 77                   	.byte 0x77
+5:0x78 : 78                   	.byte 0x78
+5:0x79 : 79                   	.byte 0x79
+5:0x7a : 7a                   	.byte 0x7a
+5:0x7b : 7b                   	.byte 0x7b
+5:0x7c : 7c                   	.byte 0x7c
+5:0x7d : 7d                   	.byte 0x7d
+5:0x7e : 7e                   	.byte 0x7e
+5:0x7f : 7f                   	.byte 0x7f
+5:0x80 : 80                   	.byte 0x80
+5:0x81 : 81                   	.byte 0x81
+5:0x82 : 82                   	.byte 0x82
+5:0x83 : 83                   	.byte 0x83
+5:0x84 : 84                   	.byte 0x84
+5:0x85 : 85                   	.byte 0x85
+5:0x86 : 86                   	.byte 0x86
+5:0x87 : 87                   	.byte 0x87
+5:0x88 : 88                   	.byte 0x88
+5:0x89 : 89                   	.byte 0x89
+5:0x8a : 8a                   	.byte 0x8a
+5:0x8b : 8b                   	.byte 0x8b
+5:0x8c : 8c                   	.byte 0x8c
+5:0x8d : 8d                   	.byte 0x8d
+5:0x8e : 8e                   	.byte 0x8e
+5:0x8f : 8f                   	.byte 0x8f
+5:0x90 : 90                   	nop
+5:0x91 : 91                   	xchg   %eax,%ecx
+5:0x92 : 92                   	xchg   %eax,%edx
+5:0x93 : 93                   	xchg   %eax,%ebx
+5:0x94 : 94                   	xchg   %eax,%esp
+5:0x95 : 95                   	xchg   %eax,%ebp
+5:0x96 : 96                   	xchg   %eax,%esi
+5:0x97 : 97                   	xchg   %eax,%edi
+5:0x98 : 98                   	cwtl
+5:0x99 : 99                   	cltd
+5:0x9a : 9a                   	(bad)
+5:0x9b : 9b                   	fwait
+5:0x9c : 9c                   	pushfq
+5:0x9d : 9d                   	popfq
+5:0x9e : 9e                   	sahf
+5:0x9f : 9f                   	lahf
+5:0xa0 : a0                   	.byte 0xa0
+5:0xa1 : a1                   	.byte 0xa1
+5:0xa2 : a2                   	.byte 0xa2
+5:0xa3 : a3                   	.byte 0xa3
+5:0xa4 : a4                   	movsb  %ds
+5:0xa5 : a5                   	movsl  %ds
+5:0xa6 : a6                   	cmpsb  %es
+5:0xa7 : a7                   	cmpsl  %es
+5:0xa8 : a8                   	.byte 0xa8
+5:0xa9 : a9 a9 a9 a9 a9       	test   $0xa9a9a9a9,%eax
+5:0xaa : aa                   	stos   %al,%es
+5:0xab : ab                   	stos   %eax,%es
+5:0xac : ac                   	lods   %ds
+5:0xad : ad                   	lods   %ds
+5:0xae : ae                   	scas   %es
+5:0xaf : af                   	scas   %es
+5:0xb0 : b0                   	.byte 0xb0
+5:0xb1 : b1                   	.byte 0xb1
+5:0xb2 : b2                   	.byte 0xb2
+5:0xb3 : b3                   	.byte 0xb3
+5:0xb4 : b4                   	.byte 0xb4
+5:0xb5 : b5                   	.byte 0xb5
+5:0xb6 : b6                   	.byte 0xb6
+5:0xb7 : b7                   	.byte 0xb7
+5:0xb8 : b8 b8 b8 b8 b8       	mov    $0xb8b8b8b8,%eax
+5:0xb9 : b9 b9 b9 b9 b9       	mov    $0xb9b9b9b9,%ecx
+5:0xba : ba ba ba ba ba       	mov    $0xbabababa,%edx
+5:0xbb : bb bb bb bb bb       	mov    $0xbbbbbbbb,%ebx
+5:0xbc : bc bc bc bc bc       	mov    $0xbcbcbcbc,%esp
+5:0xbd : bd bd bd bd bd       	mov    $0xbdbdbdbd,%ebp
+5:0xbe : be be be be be       	mov    $0xbebebebe,%esi
+5:0xbf : bf bf bf bf bf       	mov    $0xbfbfbfbf,%edi
+5:0xc0 : c0                   	.byte 0xc0
+5:0xc1 : c1                   	.byte 0xc1
+5:0xc2 : c2                   	.byte 0xc2
+5:0xc3 : c3                   	retq
+5:0xc4 : c4                   	.byte 0xc4
+5:0xc5 : c5                   	.byte 0xc5
+5:0xc6 : c6                   	.byte 0xc6
+5:0xc7 : c7                   	.byte 0xc7
+5:0xc8 : c8                   	.byte 0xc8
+5:0xc9 : c9                   	leaveq
+5:0xca : ca                   	.byte 0xca
+5:0xcb : cb                   	lret
+5:0xcc : cc                   	int3
+5:0xcd : cd                   	.byte 0xcd
+5:0xce : ce                   	(bad)
+5:0xcf : cf                   	iret
+5:0xd0 : d0                   	.byte 0xd0
+5:0xd1 : d1                   	.byte 0xd1
+5:0xd2 : d2                   	.byte 0xd2
+5:0xd3 : d3                   	.byte 0xd3
+5:0xd4 : d4                   	(bad)
+5:0xd5 : d5                   	(bad)
+5:0xd6 : d6                   	(bad)
+5:0xd7 : d7                   	xlat   %ds
+5:0xd8 : d8                   	.byte 0xd8
+5:0xd9 : d9                   	.byte 0xd9
+5:0xda : da                   	.byte 0xda
+5:0xdb : db                   	.byte 0xdb
+5:0xdc : dc                   	.byte 0xdc
+5:0xdd : dd                   	.byte 0xdd
+5:0xde : de                   	.byte 0xde
+5:0xdf : df                   	.byte 0xdf
+5:0xe0 : e0                   	.byte 0xe0
+5:0xe1 : e1                   	.byte 0xe1
+5:0xe2 : e2                   	.byte 0xe2
+5:0xe3 : e3                   	.byte 0xe3
+5:0xe4 : e4                   	.byte 0xe4
+5:0xe5 : e5                   	.byte 0xe5
+5:0xe6 : e6                   	.byte 0xe6
+5:0xe7 : e7                   	.byte 0xe7
+5:0xe8 : e8 e8 e8 e8 e8       	callq  ffffffffe928e96d <_end+0xffffffffe8c8e8e5>
+5:0xe9 : e9 e9 e9 e9 e9       	jmpq   ffffffffea29ea6e <_end+0xffffffffe9c9e9e6>
+5:0xea : ea                   	(bad)
+5:0xeb : eb                   	.byte 0xeb
+5:0xec : ec                   	in     (%dx),%al
+5:0xed : ed                   	in     (%dx),%eax
+5:0xee : ee                   	out    %al,(%dx)
+5:0xef : ef                   	out    %eax,(%dx)
+5:0xf0 : f0                   	lock
+5:0xf1 : f1                   	icebp
+5:0xf2 : f2                   	repnz
+5:0xf3 : f3                   	repz
+5:0xf4 : f4                   	hlt
+5:0xf5 : f5                   	cmc
+5:0xf6 : f6                   	.byte 0xf6
+5:0xf7 : f7                   	.byte 0xf7
+5:0xf8 : f8                   	clc
+5:0xf9 : f9                   	stc
+5:0xfa : fa                   	cli
+5:0xfb : fb                   	sti
+5:0xfc : fc                   	cld
+5:0xfd : fd                   	std
+5:0xfe : fe                   	.byte 0xfe
+5:0xff : ff                   	.byte 0xff
+6:0x0 : ...
+6:0x1 : 01 01                	add    %eax,(%rcx)
+6:0x2 : 02 02                	add    (%rdx),%al
+6:0x3 : 03 03                	add    (%rbx),%eax
+6:0x4 : 04 04                	add    $0x4,%al
+6:0x5 : 05                   	.byte 0x5
+6:0x6 : 06                   	(bad)
+6:0x7 : 07                   	(bad)
+6:0x8 : 08 08                	or     %cl,(%rax)
+6:0x9 : 09 09                	or     %ecx,(%rcx)
+6:0xa : 0a 0a                	or     (%rdx),%cl
+6:0xb : 0b 0b                	or     (%rbx),%ecx
+6:0xc : 0c 0c                	or     $0xc,%al
+6:0xd : 0d                   	.byte 0xd
+6:0xe : 0e                   	(bad)
+6:0xf : 
+6:0x10 : 10 10                	adc    %dl,(%rax)
+6:0x11 : 11 11                	adc    %edx,(%rcx)
+6:0x12 : 12 12                	adc    (%rdx),%dl
+6:0x13 : 13 13                	adc    (%rbx),%edx
+6:0x14 : 14 14                	adc    $0x14,%al
+6:0x15 : 15                   	.byte 0x15
+6:0x16 : 16                   	(bad)
+6:0x17 : 17                   	(bad)
+6:0x18 : 18 18                	sbb    %bl,(%rax)
+6:0x19 : 19 19                	sbb    %ebx,(%rcx)
+6:0x1a : 1a 1a                	sbb    (%rdx),%bl
+6:0x1b : 1b 1b                	sbb    (%rbx),%ebx
+6:0x1c : 1c 1c                	sbb    $0x1c,%al
+6:0x1d : 1d                   	.byte 0x1d
+6:0x1e : 1e                   	(bad)
+6:0x1f : 1f                   	(bad)
+6:0x20 : 20 20                	and    %ah,(%rax)
+6:0x21 : 21 21                	and    %esp,(%rcx)
+6:0x22 : 22 22                	and    (%rdx),%ah
+6:0x23 : 23 23                	and    (%rbx),%esp
+6:0x24 : 24 24                	and    $0x24,%al
+6:0x25 : 25                   	.byte 0x25
+6:0x26 : 26                   	es
+6:0x27 : 27                   	(bad)
+6:0x28 : 28 28                	sub    %ch,(%rax)
+6:0x29 : 29 29                	sub    %ebp,(%rcx)
+6:0x2a : 2a 2a                	sub    (%rdx),%ch
+6:0x2b : 2b 2b                	sub    (%rbx),%ebp
+6:0x2c : 2c 2c                	sub    $0x2c,%al
+6:0x2d : 2d                   	.byte 0x2d
+6:0x2e : 2e                   	cs
+6:0x2f : 2f                   	(bad)
+6:0x30 : 30 30                	xor    %dh,(%rax)
+6:0x31 : 31 31                	xor    %esi,(%rcx)
+6:0x32 : 32 32                	xor    (%rdx),%dh
+6:0x33 : 33 33                	xor    (%rbx),%esi
+6:0x34 : 34 34                	xor    $0x34,%al
+6:0x35 : 35                   	.byte 0x35
+6:0x36 : 36                   	ss
+6:0x37 : 37                   	(bad)
+6:0x38 : 38 38                	cmp    %bh,(%rax)
+6:0x39 : 39 39                	cmp    %edi,(%rcx)
+6:0x3a : 3a 3a                	cmp    (%rdx),%bh
+6:0x3b : 3b 3b                	cmp    (%rbx),%edi
+6:0x3c : 3c 3c                	cmp    $0x3c,%al
+6:0x3d : 3d                   	.byte 0x3d
+6:0x3e : 3e                   	ds
+6:0x3f : 3f                   	(bad)
+6:0x40 : 40                   	rex
+6:0x41 : 41                   	rex.B
+6:0x42 : 42                   	rex.X
+6:0x43 : 43                   	rex.XB
+6:0x44 : 44                   	rex.R
+6:0x45 : 45                   	rex.RB
+6:0x46 : 46                   	rex.RX
+6:0x47 : 47                   	rex.RXB
+6:0x48 : 48                   	rex.W
+6:0x49 : 49                   	rex.WB
+6:0x4a : 4a                   	rex.WX
+6:0x4b : 4b                   	rex.WXB
+6:0x4c : 4c                   	rex.WR
+6:0x4d : 4d                   	rex.WRB
+6:0x4e : 4e                   	rex.WRX
+6:0x4f : 4f                   	rex.WRXB
+6:0x50 : 50                   	push   %rax
+6:0x51 : 51                   	push   %rcx
+6:0x52 : 52                   	push   %rdx
+6:0x53 : 53                   	push   %rbx
+6:0x54 : 54                   	push   %rsp
+6:0x55 : 55                   	push   %rbp
+6:0x56 : 56                   	push   %rsi
+6:0x57 : 57                   	push   %rdi
+6:0x58 : 58                   	pop    %rax
+6:0x59 : 59                   	pop    %rcx
+6:0x5a : 5a                   	pop    %rdx
+6:0x5b : 5b                   	pop    %rbx
+6:0x5c : 5c                   	pop    %rsp
+6:0x5d : 5d                   	pop    %rbp
+6:0x5e : 5e                   	pop    %rsi
+6:0x5f : 5f                   	pop    %rdi
+6:0x60 : 60                   	(bad)
+6:0x61 : 61                   	(bad)
+6:0x62 : 62                   	.byte 0x62
+6:0x63 : 63 63 63             	movslq 0x63(%rbx),%esp
+6:0x64 : 64                   	fs
+6:0x65 : 65                   	gs
+6:0x66 : 66                   	data16
+6:0x67 : 67                   	addr32
+6:0x68 : 68                   	.byte 0x68
+6:0x69 : 69                   	.byte 0x69
+6:0x6a : 6a 6a                	pushq  $0x6a
+6:0x6b : 6b                   	.byte 0x6b
+6:0x6c : 6c                   	insb   (%dx),%es
+6:0x6d : 6d                   	insl   (%dx),%es
+6:0x6e : 6e                   	outsb  %ds
+6:0x6f : 6f                   	outsl  %ds
+6:0x70 : 70 70                	jo     4000f6 <_start+0x76>
+6:0x71 : 71 71                	jno    4000f7 <_start+0x77>
+6:0x72 : 72 72                	jb     4000f8 <_start+0x78>
+6:0x73 : 73 73                	jae    4000f9 <_start+0x79>
+6:0x74 : 74 74                	je     4000fa <_start+0x7a>
+6:0x75 : 75 75                	jne    4000fb <_start+0x7b>
+6:0x76 : 76 76                	jbe    4000fc <_start+0x7c>
+6:0x77 : 77 77                	ja     4000fd <_start+0x7d>
+6:0x78 : 78 78                	js     4000fe <_start+0x7e>
+6:0x79 : 79 79                	jns    4000ff <_start+0x7f>
+6:0x7a : 7a 7a                	jp     400100 <_start+0x80>
+6:0x7b : 7b 7b                	jnp    400101 <_start+0x81>
+6:0x7c : 7c 7c                	jl     400102 <_start+0x82>
+6:0x7d : 7d 7d                	jge    400103 <_start+0x83>
+6:0x7e : 7e 7e                	jle    400104 <_start+0x84>
+6:0x7f : 7f 7f                	jg     400105 <_start+0x85>
+6:0x80 : 80                   	.byte 0x80
+6:0x81 : 81                   	.byte 0x81
+6:0x82 : 82                   	.byte 0x82
+6:0x83 : 83                   	.byte 0x83
+6:0x84 : 84                   	.byte 0x84
+6:0x85 : 85 85 85 85 85 85    	test   %eax,-0x7a7a7a7b(%rbp)
+6:0x86 : 86 86 86 86 86 86    	xchg   %al,-0x7979797a(%rsi)
+6:0x87 : 87 87 87 87 87 87    	xchg   %eax,-0x78787879(%rdi)
+6:0x88 : 88 88 88 88 88 88    	mov    %cl,-0x77777778(%rax)
+6:0x89 : 89 89 89 89 89 89    	mov    %ecx,-0x76767677(%rcx)
+6:0x8a : 8a 8a 8a 8a 8a 8a    	mov    -0x75757576(%rdx),%cl
+6:0x8b : 8b 8b 8b 8b 8b 8b    	mov    -0x74747475(%rbx),%ecx
+6:0x8c : 8c                   	.byte 0x8c
+6:0x8d : 8d 8d 8d 8d 8d 8d    	lea    -0x72727273(%rbp),%ecx
+6:0x8e : 8e 8e 8e 8e 8e 8e    	mov    -0x71717172(%rsi),%cs
+6:0x8f : 8f                   	.byte 0x8f
+6:0x90 : 90                   	nop
+6:0x91 : 91                   	xchg   %eax,%ecx
+6:0x92 : 92                   	xchg   %eax,%edx
+6:0x93 : 93                   	xchg   %eax,%ebx
+6:0x94 : 94                   	xchg   %eax,%esp
+6:0x95 : 95                   	xchg   %eax,%ebp
+6:0x96 : 96                   	xchg   %eax,%esi
+6:0x97 : 97                   	xchg   %eax,%edi
+6:0x98 : 98                   	cwtl
+6:0x99 : 99                   	cltd
+6:0x9a : 9a                   	(bad)
+6:0x9b : 9b                   	fwait
+6:0x9c : 9c                   	pushfq
+6:0x9d : 9d                   	popfq
+6:0x9e : 9e                   	sahf
+6:0x9f : 9f                   	lahf
+6:0xa0 : a0                   	.byte 0xa0
+6:0xa1 : a1                   	.byte 0xa1
+6:0xa2 : a2                   	.byte 0xa2
+6:0xa3 : a3                   	.byte 0xa3
+6:0xa4 : a4                   	movsb  %ds
+6:0xa5 : a5                   	movsl  %ds
+6:0xa6 : a6                   	cmpsb  %es
+6:0xa7 : a7                   	cmpsl  %es
+6:0xa8 : a8 a8                	test   $0xa8,%al
+6:0xa9 : a9                   	.byte 0xa9
+6:0xaa : aa                   	stos   %al,%es
+6:0xab : ab                   	stos   %eax,%es
+6:0xac : ac                   	lods   %ds
+6:0xad : ad                   	lods   %ds
+6:0xae : ae                   	scas   %es
+6:0xaf : af                   	scas   %es
+6:0xb0 : b0 b0                	mov    $0xb0,%al
+6:0xb1 : b1 b1                	mov    $0xb1,%cl
+6:0xb2 : b2 b2                	mov    $0xb2,%dl
+6:0xb3 : b3 b3                	mov    $0xb3,%bl
+6:0xb4 : b4 b4                	mov    $0xb4,%ah
+6:0xb5 : b5 b5                	mov    $0xb5,%ch
+6:0xb6 : b6 b6                	mov    $0xb6,%dh
+6:0xb7 : b7 b7                	mov    $0xb7,%bh
+6:0xb8 : b8                   	.byte 0xb8
+6:0xb9 : b9                   	.byte 0xb9
+6:0xba : ba                   	.byte 0xba
+6:0xbb : bb                   	.byte 0xbb
+6:0xbc : bc                   	.byte 0xbc
+6:0xbd : bd                   	.byte 0xbd
+6:0xbe : be                   	.byte 0xbe
+6:0xbf : bf                   	.byte 0xbf
+6:0xc0 : c0 c0 c0             	rol    $0xc0,%al
+6:0xc1 : c1 c1 c1             	rol    $0xc1,%ecx
+6:0xc2 : c2 c2 c2             	retq   $0xc2c2
+6:0xc3 : c3                   	retq
+6:0xc4 : c4                   	.byte 0xc4
+6:0xc5 : c5                   	.byte 0xc5
+6:0xc6 : c6 c6 c6             	mov    $0xc6,%dh
+6:0xc7 : c7 c7 c7 c7 c7 c7    	mov    $0xc7c7c7c7,%edi
+6:0xc8 : c8                   	.byte 0xc8
+6:0xc9 : c9                   	leaveq
+6:0xca : ca ca ca             	lret   $0xcaca
+6:0xcb : cb                   	lret
+6:0xcc : cc                   	int3
+6:0xcd : cd cd                	int    $0xcd
+6:0xce : ce                   	(bad)
+6:0xcf : cf                   	iret
+6:0xd0 : d0 d0                	rcl    %al
+6:0xd1 : d1 d1                	rcl    %ecx
+6:0xd2 : d2 d2                	rcl    %cl,%dl
+6:0xd3 : d3 d3                	rcl    %cl,%ebx
+6:0xd4 : d4                   	(bad)
+6:0xd5 : d5                   	(bad)
+6:0xd6 : d6                   	(bad)
+6:0xd7 : d7                   	xlat   %ds
+6:0xd8 : d8 d8                	fcomp  %st(0)
+6:0xd9 : d9 d9                	(bad)
+6:0xda : da da                	fcmovu %st(2),%st
+6:0xdb : db db                	fcmovnu %st(3),%st
+6:0xdc : dc dc                	(bad)
+6:0xdd : dd dd                	fstp   %st(5)
+6:0xde : de de                	(bad)
+6:0xdf : df df                	(bad)
+6:0xe0 : e0 e0                	loopne 400066 <_start-0x1a>
+6:0xe1 : e1 e1                	loope  400067 <_start-0x19>
+6:0xe2 : e2 e2                	loop   400068 <_start-0x18>
+6:0xe3 : e3 e3                	jrcxz  400069 <_start-0x17>
+6:0xe4 : e4 e4                	in     $0xe4,%al
+6:0xe5 : e5 e5                	in     $0xe5,%eax
+6:0xe6 : e6 e6                	out    %al,$0xe6
+6:0xe7 : e7 e7                	out    %eax,$0xe7
+6:0xe8 : e8                   	.byte 0xe8
+6:0xe9 : e9                   	.byte 0xe9
+6:0xea : ea                   	(bad)
+6:0xeb : eb eb                	jmp    400071 <_start-0xf>
+6:0xec : ec                   	in     (%dx),%al
+6:0xed : ed                   	in     (%dx),%eax
+6:0xee : ee                   	out    %al,(%dx)
+6:0xef : ef                   	out    %eax,(%dx)
+6:0xf0 : f0                   	lock
+6:0xf1 : f1                   	icebp
+6:0xf2 : f2                   	repnz
+6:0xf3 : f3                   	repz
+6:0xf4 : f4                   	hlt
+6:0xf5 : f5                   	cmc
+6:0xf6 : f6 f6                	div    %dh
+6:0xf7 : f7 f7                	div    %edi
+6:0xf8 : f8                   	clc
+6:0xf9 : f9                   	stc
+6:0xfa : fa                   	cli
+6:0xfb : fb                   	sti
+6:0xfc : fc                   	cld
+6:0xfd : fd                   	std
+6:0xfe : fe                   	.byte 0xfe
+6:0xff : ff                   	.byte 0xff
+7:0x0 : ...
+7:0x1 : 01                   	.byte 0x1
+7:0x2 : 02                   	.byte 0x2
+7:0x3 : 03                   	.byte 0x3
+7:0x4 : 04                   	.byte 0x4
+7:0x5 : 05                   	.byte 0x5
+7:0x6 : 06                   	(bad)
+7:0x7 : 07                   	(bad)
+7:0x8 : 08                   	.byte 0x8
+7:0x9 : 09                   	.byte 0x9
+7:0xa : 0a                   	.byte 0xa
+7:0xb : 0b                   	.byte 0xb
+7:0xc : 0c                   	.byte 0xc
+7:0xd : 0d                   	.byte 0xd
+7:0xe : 0e                   	(bad)
+7:0xf : 
+7:0x10 : 10                   	.byte 0x10
+7:0x11 : 11                   	.byte 0x11
+7:0x12 : 12                   	.byte 0x12
+7:0x13 : 13                   	.byte 0x13
+7:0x14 : 14                   	.byte 0x14
+7:0x15 : 15                   	.byte 0x15
+7:0x16 : 16                   	(bad)
+7:0x17 : 17                   	(bad)
+7:0x18 : 18                   	.byte 0x18
+7:0x19 : 19                   	.byte 0x19
+7:0x1a : 1a                   	.byte 0x1a
+7:0x1b : 1b                   	.byte 0x1b
+7:0x1c : 1c                   	.byte 0x1c
+7:0x1d : 1d                   	.byte 0x1d
+7:0x1e : 1e                   	(bad)
+7:0x1f : 1f                   	(bad)
+7:0x20 : 20                   	.byte 0x20
+7:0x21 : 21                   	.byte 0x21
+7:0x22 : 22                   	.byte 0x22
+7:0x23 : 23                   	.byte 0x23
+7:0x24 : 24                   	.byte 0x24
+7:0x25 : 25                   	.byte 0x25
+7:0x26 : 26                   	es
+7:0x27 : 27                   	(bad)
+7:0x28 : 28                   	.byte 0x28
+7:0x29 : 29                   	.byte 0x29
+7:0x2a : 2a                   	.byte 0x2a
+7:0x2b : 2b                   	.byte 0x2b
+7:0x2c : 2c                   	.byte 0x2c
+7:0x2d : 2d                   	.byte 0x2d
+7:0x2e : 2e                   	cs
+7:0x2f : 2f                   	(bad)
+7:0x30 : 30                   	.byte 0x30
+7:0x31 : 31                   	.byte 0x31
+7:0x32 : 32                   	.byte 0x32
+7:0x33 : 33                   	.byte 0x33
+7:0x34 : 34                   	.byte 0x34
+7:0x35 : 35                   	.byte 0x35
+7:0x36 : 36                   	ss
+7:0x37 : 37                   	(bad)
+7:0x38 : 38                   	.byte 0x38
+7:0x39 : 39                   	.byte 0x39
+7:0x3a : 3a                   	.byte 0x3a
+7:0x3b : 3b                   	.byte 0x3b
+7:0x3c : 3c                   	.byte 0x3c
+7:0x3d : 3d                   	.byte 0x3d
+7:0x3e : 3e                   	ds
+7:0x3f : 3f                   	(bad)
+7:0x40 : 40                   	rex
+7:0x41 : 41                   	rex.B
+7:0x42 : 42                   	rex.X
+7:0x43 : 43                   	rex.XB
+7:0x44 : 44                   	rex.R
+7:0x45 : 45                   	rex.RB
+7:0x46 : 46                   	rex.RX
+7:0x47 : 47                   	rex.RXB
+7:0x48 : 48                   	rex.W
+7:0x49 : 49                   	rex.WB
+7:0x4a : 4a                   	rex.WX
+7:0x4b : 4b                   	rex.WXB
+7:0x4c : 4c                   	rex.WR
+7:0x4d : 4d                   	rex.WRB
+7:0x4e : 4e                   	rex.WRX
+7:0x4f : 4f                   	rex.WRXB
+7:0x50 : 50                   	push   %rax
+7:0x51 : 51                   	push   %rcx
+7:0x52 : 52                   	push   %rdx
+7:0x53 : 53                   	push   %rbx
+7:0x54 : 54                   	push   %rsp
+7:0x55 : 55                   	push   %rbp
+7:0x56 : 56                   	push   %rsi
+7:0x57 : 57                   	push   %rdi
+7:0x58 : 58                   	pop    %rax
+7:0x59 : 59                   	pop    %rcx
+7:0x5a : 5a                   	pop    %rdx
+7:0x5b : 5b                   	pop    %rbx
+7:0x5c : 5c                   	pop    %rsp
+7:0x5d : 5d                   	pop    %rbp
+7:0x5e : 5e                   	pop    %rsi
+7:0x5f : 5f                   	pop    %rdi
+7:0x60 : 60                   	(bad)
+7:0x61 : 61                   	(bad)
+7:0x62 : 62                   	.byte 0x62
+7:0x63 : 63                   	.byte 0x63
+7:0x64 : 64                   	fs
+7:0x65 : 65                   	gs
+7:0x66 : 66                   	data16
+7:0x67 : 67                   	addr32
+7:0x68 : 68                   	.byte 0x68
+7:0x69 : 69 69 69 69 69 69 69 	imul   $0x69696969,0x69(%rcx),%ebp
+7:0x6a : 6a                   	.byte 0x6a
+7:0x6b : 6b                   	.byte 0x6b
+7:0x6c : 6c                   	insb   (%dx),%es
+7:0x6d : 6d                   	insl   (%dx),%es
+7:0x6e : 6e                   	outsb  %ds
+7:0x6f : 6f                   	outsl  %ds
+7:0x70 : 70                   	.byte 0x70
+7:0x71 : 71                   	.byte 0x71
+7:0x72 : 72                   	.byte 0x72
+7:0x73 : 73                   	.byte 0x73
+7:0x74 : 74                   	.byte 0x74
+7:0x75 : 75                   	.byte 0x75
+7:0x76 : 76                   	.byte 0x76
+7:0x77 : 77                   	.byte 0x77
+7:0x78 : 78                   	.byte 0x78
+7:0x79 : 79                   	.byte 0x79
+7:0x7a : 7a                   	.byte 0x7a
+7:0x7b : 7b                   	.byte 0x7b
+7:0x7c : 7c                   	.byte 0x7c
+7:0x7d : 7d                   	.byte 0x7d
+7:0x7e : 7e                   	.byte 0x7e
+7:0x7f : 7f                   	.byte 0x7f
+7:0x80 : 80 80 80 80 80 80 80 	addb   $0x80,-0x7f7f7f80(%rax)
+7:0x81 : 81                   	.byte 0x81
+7:0x82 : 82                   	.byte 0x82
+7:0x83 : 83 83 83 83 83 83 83 	addl   $0xffffff83,-0x7c7c7c7d(%rbx)
+7:0x84 : 84 84 84 84 84 84 84 	test   %al,-0x7b7b7b7c(%rsp,%rax,4)
+7:0x85 : 85                   	.byte 0x85
+7:0x86 : 86                   	.byte 0x86
+7:0x87 : 87                   	.byte 0x87
+7:0x88 : 88                   	.byte 0x88
+7:0x89 : 89                   	.byte 0x89
+7:0x8a : 8a                   	.byte 0x8a
+7:0x8b : 8b                   	.byte 0x8b
+7:0x8c : 8c 8c 8c 8c 8c 8c 8c 	mov    %cs,-0x73737374(%rsp,%rcx,4)
+7:0x8d : 8d                   	.byte 0x8d
+7:0x8e : 8e                   	.byte 0x8e
+7:0x8f : 8f                   	.byte 0x8f
+7:0x90 : 90                   	nop
+7:0x91 : 91                   	xchg   %eax,%ecx
+7:0x92 : 92                   	xchg   %eax,%edx
+7:0x93 : 93                   	xchg   %eax,%ebx
+7:0x94 : 94                   	xchg   %eax,%esp
+7:0x95 : 95                   	xchg   %eax,%ebp
+7:0x96 : 96                   	xchg   %eax,%esi
+7:0x97 : 97                   	xchg   %eax,%edi
+7:0x98 : 98                   	cwtl
+7:0x99 : 99                   	cltd
+7:0x9a : 9a                   	(bad)
+7:0x9b : 9b                   	fwait
+7:0x9c : 9c                   	pushfq
+7:0x9d : 9d                   	popfq
+7:0x9e : 9e                   	sahf
+7:0x9f : 9f                   	lahf
+7:0xa0 : a0                   	.byte 0xa0
+7:0xa1 : a1                   	.byte 0xa1
+7:0xa2 : a2                   	.byte 0xa2
+7:0xa3 : a3                   	.byte 0xa3
+7:0xa4 : a4                   	movsb  %ds
+7:0xa5 : a5                   	movsl  %ds
+7:0xa6 : a6                   	cmpsb  %es
+7:0xa7 : a7                   	cmpsl  %es
+7:0xa8 : a8                   	.byte 0xa8
+7:0xa9 : a9                   	.byte 0xa9
+7:0xaa : aa                   	stos   %al,%es
+7:0xab : ab                   	stos   %eax,%es
+7:0xac : ac                   	lods   %ds
+7:0xad : ad                   	lods   %ds
+7:0xae : ae                   	scas   %es
+7:0xaf : af                   	scas   %es
+7:0xb0 : b0                   	.byte 0xb0
+7:0xb1 : b1                   	.byte 0xb1
+7:0xb2 : b2                   	.byte 0xb2
+7:0xb3 : b3                   	.byte 0xb3
+7:0xb4 : b4                   	.byte 0xb4
+7:0xb5 : b5                   	.byte 0xb5
+7:0xb6 : b6                   	.byte 0xb6
+7:0xb7 : b7                   	.byte 0xb7
+7:0xb8 : b8                   	.byte 0xb8
+7:0xb9 : b9                   	.byte 0xb9
+7:0xba : ba                   	.byte 0xba
+7:0xbb : bb                   	.byte 0xbb
+7:0xbc : bc                   	.byte 0xbc
+7:0xbd : bd                   	.byte 0xbd
+7:0xbe : be                   	.byte 0xbe
+7:0xbf : bf                   	.byte 0xbf
+7:0xc0 : c0                   	.byte 0xc0
+7:0xc1 : c1                   	.byte 0xc1
+7:0xc2 : c2                   	.byte 0xc2
+7:0xc3 : c3                   	retq
+7:0xc4 : c4                   	.byte 0xc4
+7:0xc5 : c5                   	.byte 0xc5
+7:0xc6 : c6                   	.byte 0xc6
+7:0xc7 : c7                   	.byte 0xc7
+7:0xc8 : c8                   	.byte 0xc8
+7:0xc9 : c9                   	leaveq
+7:0xca : ca                   	.byte 0xca
+7:0xcb : cb                   	lret
+7:0xcc : cc                   	int3
+7:0xcd : cd                   	.byte 0xcd
+7:0xce : ce                   	(bad)
+7:0xcf : cf                   	iret
+7:0xd0 : d0                   	.byte 0xd0
+7:0xd1 : d1                   	.byte 0xd1
+7:0xd2 : d2                   	.byte 0xd2
+7:0xd3 : d3                   	.byte 0xd3
+7:0xd4 : d4                   	(bad)
+7:0xd5 : d5                   	(bad)
+7:0xd6 : d6                   	(bad)
+7:0xd7 : d7                   	xlat   %ds
+7:0xd8 : d8                   	.byte 0xd8
+7:0xd9 : d9                   	.byte 0xd9
+7:0xda : da                   	.byte 0xda
+7:0xdb : db                   	.byte 0xdb
+7:0xdc : dc                   	.byte 0xdc
+7:0xdd : dd                   	.byte 0xdd
+7:0xde : de                   	.byte 0xde
+7:0xdf : df                   	.byte 0xdf
+7:0xe0 : e0                   	.byte 0xe0
+7:0xe1 : e1                   	.byte 0xe1
+7:0xe2 : e2                   	.byte 0xe2
+7:0xe3 : e3                   	.byte 0xe3
+7:0xe4 : e4                   	.byte 0xe4
+7:0xe5 : e5                   	.byte 0xe5
+7:0xe6 : e6                   	.byte 0xe6
+7:0xe7 : e7                   	.byte 0xe7
+7:0xe8 : e8                   	.byte 0xe8
+7:0xe9 : e9                   	.byte 0xe9
+7:0xea : ea                   	(bad)
+7:0xeb : eb                   	.byte 0xeb
+7:0xec : ec                   	in     (%dx),%al
+7:0xed : ed                   	in     (%dx),%eax
+7:0xee : ee                   	out    %al,(%dx)
+7:0xef : ef                   	out    %eax,(%dx)
+7:0xf0 : f0                   	lock
+7:0xf1 : f1                   	icebp
+7:0xf2 : f2                   	repnz
+7:0xf3 : f3                   	repz
+7:0xf4 : f4                   	hlt
+7:0xf5 : f5                   	cmc
+7:0xf6 : f6                   	.byte 0xf6
+7:0xf7 : f7                   	.byte 0xf7
+7:0xf8 : f8                   	clc
+7:0xf9 : f9                   	stc
+7:0xfa : fa                   	cli
+7:0xfb : fb                   	sti
+7:0xfc : fc                   	cld
+7:0xfd : fd                   	std
+7:0xfe : fe                   	.byte 0xfe
+7:0xff : ff                   	.byte 0xff
+8:0x0 : ...
+8:0x1 : 01 01                	add    %eax,(%rcx)
+8:0x2 : 02 02                	add    (%rdx),%al
+8:0x3 : 03 03                	add    (%rbx),%eax
+8:0x4 : 04 04                	add    $0x4,%al
+8:0x5 : 05                   	.byte 0x5
+8:0x6 : 06                   	(bad)
+8:0x7 : 07                   	(bad)
+8:0x8 : 08 08                	or     %cl,(%rax)
+8:0x9 : 09 09                	or     %ecx,(%rcx)
+8:0xa : 0a 0a                	or     (%rdx),%cl
+8:0xb : 0b 0b                	or     (%rbx),%ecx
+8:0xc : 0c 0c                	or     $0xc,%al
+8:0xd : 0d                   	.byte 0xd
+8:0xe : 0e                   	(bad)
+8:0xf : 
+8:0x10 : 10 10                	adc    %dl,(%rax)
+8:0x11 : 11 11                	adc    %edx,(%rcx)
+8:0x12 : 12 12                	adc    (%rdx),%dl
+8:0x13 : 13 13                	adc    (%rbx),%edx
+8:0x14 : 14 14                	adc    $0x14,%al
+8:0x15 : 15                   	.byte 0x15
+8:0x16 : 16                   	(bad)
+8:0x17 : 17                   	(bad)
+8:0x18 : 18 18                	sbb    %bl,(%rax)
+8:0x19 : 19 19                	sbb    %ebx,(%rcx)
+8:0x1a : 1a 1a                	sbb    (%rdx),%bl
+8:0x1b : 1b 1b                	sbb    (%rbx),%ebx
+8:0x1c : 1c 1c                	sbb    $0x1c,%al
+8:0x1d : 1d                   	.byte 0x1d
+8:0x1e : 1e                   	(bad)
+8:0x1f : 1f                   	(bad)
+8:0x20 : 20 20                	and    %ah,(%rax)
+8:0x21 : 21 21                	and    %esp,(%rcx)
+8:0x22 : 22 22                	and    (%rdx),%ah
+8:0x23 : 23 23                	and    (%rbx),%esp
+8:0x24 : 24 24                	and    $0x24,%al
+8:0x25 : 25                   	.byte 0x25
+8:0x26 : 26                   	es
+8:0x27 : 27                   	(bad)
+8:0x28 : 28 28                	sub    %ch,(%rax)
+8:0x29 : 29 29                	sub    %ebp,(%rcx)
+8:0x2a : 2a 2a                	sub    (%rdx),%ch
+8:0x2b : 2b 2b                	sub    (%rbx),%ebp
+8:0x2c : 2c 2c                	sub    $0x2c,%al
+8:0x2d : 2d                   	.byte 0x2d
+8:0x2e : 2e                   	cs
+8:0x2f : 2f                   	(bad)
+8:0x30 : 30 30                	xor    %dh,(%rax)
+8:0x31 : 31 31                	xor    %esi,(%rcx)
+8:0x32 : 32 32                	xor    (%rdx),%dh
+8:0x33 : 33 33                	xor    (%rbx),%esi
+8:0x34 : 34 34                	xor    $0x34,%al
+8:0x35 : 35                   	.byte 0x35
+8:0x36 : 36                   	ss
+8:0x37 : 37                   	(bad)
+8:0x38 : 38 38                	cmp    %bh,(%rax)
+8:0x39 : 39 39                	cmp    %edi,(%rcx)
+8:0x3a : 3a 3a                	cmp    (%rdx),%bh
+8:0x3b : 3b 3b                	cmp    (%rbx),%edi
+8:0x3c : 3c 3c                	cmp    $0x3c,%al
+8:0x3d : 3d                   	.byte 0x3d
+8:0x3e : 3e                   	ds
+8:0x3f : 3f                   	(bad)
+8:0x40 : 40                   	rex
+8:0x41 : 41                   	rex.B
+8:0x42 : 42                   	rex.X
+8:0x43 : 43                   	rex.XB
+8:0x44 : 44                   	rex.R
+8:0x45 : 45                   	rex.RB
+8:0x46 : 46                   	rex.RX
+8:0x47 : 47                   	rex.RXB
+8:0x48 : 48                   	rex.W
+8:0x49 : 49                   	rex.WB
+8:0x4a : 4a                   	rex.WX
+8:0x4b : 4b                   	rex.WXB
+8:0x4c : 4c                   	rex.WR
+8:0x4d : 4d                   	rex.WRB
+8:0x4e : 4e                   	rex.WRX
+8:0x4f : 4f                   	rex.WRXB
+8:0x50 : 50                   	push   %rax
+8:0x51 : 51                   	push   %rcx
+8:0x52 : 52                   	push   %rdx
+8:0x53 : 53                   	push   %rbx
+8:0x54 : 54                   	push   %rsp
+8:0x55 : 55                   	push   %rbp
+8:0x56 : 56                   	push   %rsi
+8:0x57 : 57                   	push   %rdi
+8:0x58 : 58                   	pop    %rax
+8:0x59 : 59                   	pop    %rcx
+8:0x5a : 5a                   	pop    %rdx
+8:0x5b : 5b                   	pop    %rbx
+8:0x5c : 5c                   	pop    %rsp
+8:0x5d : 5d                   	pop    %rbp
+8:0x5e : 5e                   	pop    %rsi
+8:0x5f : 5f                   	pop    %rdi
+8:0x60 : 60                   	(bad)
+8:0x61 : 61                   	(bad)
+8:0x62 : 62                   	.byte 0x62
+8:0x63 : 63                   	.byte 0x63
+8:0x64 : 64                   	fs
+8:0x65 : 65                   	gs
+8:0x66 : 66                   	data16
+8:0x67 : 67                   	addr32
+8:0x68 : 68                   	.byte 0x68
+8:0x69 : 69                   	.byte 0x69
+8:0x6a : 6a 6a                	pushq  $0x6a
+8:0x6b : 6b 6b 6b 6b          	imul   $0x6b,0x6b(%rbx),%ebp
+8:0x6c : 6c                   	insb   (%dx),%es
+8:0x6d : 6d                   	insl   (%dx),%es
+8:0x6e : 6e                   	outsb  %ds
+8:0x6f : 6f                   	outsl  %ds
+8:0x70 : 70 70                	jo     4000f8 <_start+0x78>
+8:0x71 : 71 71                	jno    4000f9 <_start+0x79>
+8:0x72 : 72 72                	jb     4000fa <_start+0x7a>
+8:0x73 : 73 73                	jae    4000fb <_start+0x7b>
+8:0x74 : 74 74                	je     4000fc <_start+0x7c>
+8:0x75 : 75 75                	jne    4000fd <_start+0x7d>
+8:0x76 : 76 76                	jbe    4000fe <_start+0x7e>
+8:0x77 : 77 77                	ja     4000ff <_start+0x7f>
+8:0x78 : 78 78                	js     400100 <_start+0x80>
+8:0x79 : 79 79                	jns    400101 <_start+0x81>
+8:0x7a : 7a 7a                	jp     400102 <_start+0x82>
+8:0x7b : 7b 7b                	jnp    400103 <_start+0x83>
+8:0x7c : 7c 7c                	jl     400104 <_start+0x84>
+8:0x7d : 7d 7d                	jge    400105 <_start+0x85>
+8:0x7e : 7e 7e                	jle    400106 <_start+0x86>
+8:0x7f : 7f 7f                	jg     400107 <_start+0x87>
+8:0x80 : 80                   	.byte 0x80
+8:0x81 : 81                   	.byte 0x81
+8:0x82 : 82                   	.byte 0x82
+8:0x83 : 83                   	.byte 0x83
+8:0x84 : 84                   	.byte 0x84
+8:0x85 : 85                   	.byte 0x85
+8:0x86 : 86                   	.byte 0x86
+8:0x87 : 87                   	.byte 0x87
+8:0x88 : 88                   	.byte 0x88
+8:0x89 : 89                   	.byte 0x89
+8:0x8a : 8a                   	.byte 0x8a
+8:0x8b : 8b                   	.byte 0x8b
+8:0x8c : 8c                   	.byte 0x8c
+8:0x8d : 8d                   	.byte 0x8d
+8:0x8e : 8e                   	.byte 0x8e
+8:0x8f : 8f                   	.byte 0x8f
+8:0x90 : 90                   	nop
+8:0x91 : 91                   	xchg   %eax,%ecx
+8:0x92 : 92                   	xchg   %eax,%edx
+8:0x93 : 93                   	xchg   %eax,%ebx
+8:0x94 : 94                   	xchg   %eax,%esp
+8:0x95 : 95                   	xchg   %eax,%ebp
+8:0x96 : 96                   	xchg   %eax,%esi
+8:0x97 : 97                   	xchg   %eax,%edi
+8:0x98 : 98                   	cwtl
+8:0x99 : 99                   	cltd
+8:0x9a : 9a                   	(bad)
+8:0x9b : 9b                   	fwait
+8:0x9c : 9c                   	pushfq
+8:0x9d : 9d                   	popfq
+8:0x9e : 9e                   	sahf
+8:0x9f : 9f                   	lahf
+8:0xa0 : a0                   	.byte 0xa0
+8:0xa1 : a1                   	.byte 0xa1
+8:0xa2 : a2                   	.byte 0xa2
+8:0xa3 : a3                   	.byte 0xa3
+8:0xa4 : a4                   	movsb  %ds
+8:0xa5 : a5                   	movsl  %ds
+8:0xa6 : a6                   	cmpsb  %es
+8:0xa7 : a7                   	cmpsl  %es
+8:0xa8 : a8 a8                	test   $0xa8,%al
+8:0xa9 : a9                   	.byte 0xa9
+8:0xaa : aa                   	stos   %al,%es
+8:0xab : ab                   	stos   %eax,%es
+8:0xac : ac                   	lods   %ds
+8:0xad : ad                   	lods   %ds
+8:0xae : ae                   	scas   %es
+8:0xaf : af                   	scas   %es
+8:0xb0 : b0 b0                	mov    $0xb0,%al
+8:0xb1 : b1 b1                	mov    $0xb1,%cl
+8:0xb2 : b2 b2                	mov    $0xb2,%dl
+8:0xb3 : b3 b3                	mov    $0xb3,%bl
+8:0xb4 : b4 b4                	mov    $0xb4,%ah
+8:0xb5 : b5 b5                	mov    $0xb5,%ch
+8:0xb6 : b6 b6                	mov    $0xb6,%dh
+8:0xb7 : b7 b7                	mov    $0xb7,%bh
+8:0xb8 : b8                   	.byte 0xb8
+8:0xb9 : b9                   	.byte 0xb9
+8:0xba : ba                   	.byte 0xba
+8:0xbb : bb                   	.byte 0xbb
+8:0xbc : bc                   	.byte 0xbc
+8:0xbd : bd                   	.byte 0xbd
+8:0xbe : be                   	.byte 0xbe
+8:0xbf : bf                   	.byte 0xbf
+8:0xc0 : c0                   	.byte 0xc0
+8:0xc1 : c1                   	.byte 0xc1
+8:0xc2 : c2                   	.byte 0xc2
+8:0xc3 : c3                   	retq
+8:0xc4 : c4                   	.byte 0xc4
+8:0xc5 : c5                   	.byte 0xc5
+8:0xc6 : c6                   	.byte 0xc6
+8:0xc7 : c7                   	.byte 0xc7
+8:0xc8 : c8 c8 c8 c8          	enterq $0xc8c8,$0xc8
+8:0xc9 : c9                   	leaveq
+8:0xca : ca                   	.byte 0xca
+8:0xcb : cb                   	lret
+8:0xcc : cc                   	int3
+8:0xcd : cd cd                	int    $0xcd
+8:0xce : ce                   	(bad)
+8:0xcf : cf                   	iret
+8:0xd0 : d0 d0                	rcl    %al
+8:0xd1 : d1 d1                	rcl    %ecx
+8:0xd2 : d2 d2                	rcl    %cl,%dl
+8:0xd3 : d3 d3                	rcl    %cl,%ebx
+8:0xd4 : d4                   	(bad)
+8:0xd5 : d5                   	(bad)
+8:0xd6 : d6                   	(bad)
+8:0xd7 : d7                   	xlat   %ds
+8:0xd8 : d8 d8                	fcomp  %st(0)
+8:0xd9 : d9 d9                	(bad)
+8:0xda : da da                	fcmovu %st(2),%st
+8:0xdb : db db                	fcmovnu %st(3),%st
+8:0xdc : dc dc                	(bad)
+8:0xdd : dd dd                	fstp   %st(5)
+8:0xde : de de                	(bad)
+8:0xdf : df df                	(bad)
+8:0xe0 : e0 e0                	loopne 400068 <_start-0x18>
+8:0xe1 : e1 e1                	loope  400069 <_start-0x17>
+8:0xe2 : e2 e2                	loop   40006a <_start-0x16>
+8:0xe3 : e3 e3                	jrcxz  40006b <_start-0x15>
+8:0xe4 : e4 e4                	in     $0xe4,%al
+8:0xe5 : e5 e5                	in     $0xe5,%eax
+8:0xe6 : e6 e6                	out    %al,$0xe6
+8:0xe7 : e7 e7                	out    %eax,$0xe7
+8:0xe8 : e8                   	.byte 0xe8
+8:0xe9 : e9                   	.byte 0xe9
+8:0xea : ea                   	(bad)
+8:0xeb : eb eb                	jmp    400073 <_start-0xd>
+8:0xec : ec                   	in     (%dx),%al
+8:0xed : ed                   	in     (%dx),%eax
+8:0xee : ee                   	out    %al,(%dx)
+8:0xef : ef                   	out    %eax,(%dx)
+8:0xf0 : f0                   	lock
+8:0xf1 : f1                   	icebp
+8:0xf2 : f2                   	repnz
+8:0xf3 : f3                   	repz
+8:0xf4 : f4                   	hlt
+8:0xf5 : f5                   	cmc
+8:0xf6 : f6 f6                	div    %dh
+8:0xf7 : f7 f7                	div    %edi
+8:0xf8 : f8                   	clc
+8:0xf9 : f9                   	stc
+8:0xfa : fa                   	cli
+8:0xfb : fb                   	sti
+8:0xfc : fc                   	cld
+8:0xfd : fd                   	std
+8:0xfe : fe                   	.byte 0xfe
+8:0xff : ff                   	.byte 0xff
