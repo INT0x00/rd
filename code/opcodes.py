@@ -1,3 +1,14 @@
+# script that creates some very basic assembly source files with single bytes
+# and multiples of these bytes to check how they are assembled.
+# objdump output is parsed to interpret the output files
+
+# source file format
+# ----
+# global _start:
+# section .text
+# _start:
+# times $(num) db <TESTBYTE>
+
 import os, subprocess
 
 def do_run(num, fp):
