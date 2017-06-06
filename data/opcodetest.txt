@@ -1,3 +1,4 @@
+# generated with code/opcodes.py
 1:0x0 : ...
 1:0x1 : 01                   	.byte 0x1
 1:0x2 : 02                   	.byte 0x2
