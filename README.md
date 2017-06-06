@@ -1,10 +1,10 @@
 :: binary-excursions
 a research project into:
- elf/binary files
- machinecode (x86_64)
- x64 assembly
- memory/cpu interactions
- system programming (x86_64 systems)
+* elf/binary files
+* machinecode (x86_64)
+* x64 assembly
+* memory/cpu interactions
+* system programming (x86_64 systems)
 
 What this is not:
 documentation on the above. These are personal research notes and projects from a hobbyist. I wont go deep into all the ELF header fields, or all the data structures required to initialise your computer systems. I just pick out topics i find interesting
