@@ -11,7 +11,7 @@
 // the code from this program is from:
 // jroweboy.github.io/c/asm/2015/01/26/when-is-main-not-a-function.html
 
-// this does not work on my gentoo build, but does on debian / ubuntu. ;)
+// this does not work on my gentoo build but does on debian / ubuntu default builds. ;)
 
 const int main[] = {
 	-443987883, 440, 113408, -1922629632,
