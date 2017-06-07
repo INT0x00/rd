@@ -1,5 +1,3 @@
-:: Code from Code ::
-
 >> this article will be updated and amended as feedback / information comes in and i learn new things.
 >> it is still a 'note', and will likely contain some inacurate information.
 >> Once it is more matured and complete i will move it to the research section and clean up the layout and language.
@@ -20,7 +18,6 @@ I won't give too much specifics, but in the binary-excursions project some code 
 be included to show some of the things mentioned here.
 
 
-
 :: Why write code that writes code?
 There are a few simple goals you can have for writing code from code.
 Here is a non exhaustive list:
@@ -29,7 +26,7 @@ Here is a non exhaustive list:
 	- reducing human error
 	- reducing programming time spent
 	- reduce repetitive tasks
-(the reasons for these goals seem obvious.)
+	- self-modification (code (re)writing parts of itself or itself entirely)
 
 So... let's go more into this!
 
@@ -50,37 +47,41 @@ can understand. (preferably... but you can render binary blobs or be creative wi
 
 :: Polywhatnow?
 Poly and Metamorphism refer to tecniques used to produce varying binaries from a similar source.
-These tecniques are commonly used by malware and DRM to obfuscate what a program is going and to
-evade signature based detections. 
+These tecniques are commonly used by malware, content protection and security applications to obfuscate what a program is doing and to
+evade signature based detections.
 
 :Polymorphism:
-polymorphism is the simpeler morphism. This generally doesn't change actual opcodes but orients more to program layout to
-evade signatures. This tecnique works well against hash checks and other signatures, but isn't very well against byte signatures or
-behavioural analysis.
+polymorphism is the concept of a program that changes on each install, its a bit more broad and usually less deeply technical than metamorpic code
+as this can change at the opcode level where a random install directory is already polymorphism. 
 
 :Metamorphism
 metamosphism is a technique where at the opcode level things are varied on each 'compile' so the byte code, functions and flow of the 
 application totally changes. This tecnique is much harder to create signatures from as full dynamic analysis and state tracking is required.
-This makes it so really only sandboxes have a chance of catching this. (and sandboxes can be escaped, evaded, or just confused all together :-))
+This makes it so really only sandboxes have a chance of catching this. (and sandboxes can usually be fooled too in somtimes trivial ways... :-))
 
 :: Compiling code which creates code
-To compile code which creates code there are multiple methods to do this. 
-I will briefly go into a few general ideas and expand this section as i gain more knowledge and experience in this area.
+To compile code which creates code there are multiple methods to do this, but an obvious conclusion is that there will be code written.
+Alot of it even. At start, you dont have any tools, and so, it's hard to even imagine where to start with this concept.
+
+I will briefly go into a few general ideas and expand this section as i gain more knowledge and experience in this area myself.
 
 - you need to make a set of tools or scripts which can produce code (obviously)
   ways to do it:
-	      1)  make a lot of signatures for assembly codes which have similar function.
-                  analyse input source, and replace each line with random opcodes which have the correct functions
-		  output new code.
-		  a simple example would be: a 1 line ASM file containing ' add rax, 1' is the input.
-		  when you run generate.py <input> , out comes a file with 'inc rax' as statement.
-                  (you could make it pick randomly from a list, shuffle the order of functions
-	          and try to insert jumps and garbage to make it poly/metamorphic depending on how motivated
-	          and evil you really are ;))
+		- regex engine and write your own high level language which is compiled
+		  into varying forms of the instructions (overlapping function, like add 1 or inc etc.)
+		  this requires a large amount if assembly or perhaps c code templates to fill in via your regex engine based 'compiler'.
 
-		2) Use a DSL (you write script, this gets compiled to DSL, which inturn gets compiled to machinecode)
-		   in the script -> dsl layer ,there you can change the contents of the sources.
-		   in the dsl layer itself you can match bytecode signatures and swap/replace them.
+		- use macros for life... this is very tedious, but you can for instance make a file with
+		  10 types of 'add 1' forms. then this file can be read by a script which interprets the original
+		  source files and swaps instrucitons around. 
+		 
+		- some languages create a 'vm' or sort of elaborate interpreter to interpret 'bytecode', which is a
+		  form of machinecode for this vm. the vm does all the translation to the underlying platform.
+		  if the vm is multiplatoform then so is all the code running on it which is great.
+		  (this is the approach which i will be exploring.)
+
+	: there are more ways to go about this, you can be creative :)... but every way will be a hard way that's for sure!
+
 
 
 	           
