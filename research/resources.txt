@@ -11,7 +11,7 @@ https://github.com/xoreaxeaxeax <-- Brilliant mind, creator of movfuscator and c
 http://www.cs.bham.ac.uk/~exr/teaching/lectures/opsys/10_11/lectures/os-dev.pdf <-- OS development tutorial pdf by Nick Blundell                             
 COMMUNITIES / FORUMS / CHAT
 vxheaven.org/                 <-- VX Heaven: A virus creator community with a lot of interesting sources and insights.
-IRC                           <-- Chat network, old, but gold. A lot of good communities and channels with people.
+IRC                           <-- Chat protocol / networks, old, but gold. A lot of good communities and channels with people.
                                   Any popular server will have #virus #assembly channels where people lurk around
                                   and exchange information.
 wiki.osdev.org                <--- Operating system development community.
