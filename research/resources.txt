@@ -15,7 +15,9 @@ IRC                           <-- Chat protocol / networks, old, but gold. A lot
                                   Any popular server will have #virus #assembly channels where people lurk around
                                   and exchange information.
 wiki.osdev.org                <--- Operating system development community.
-
+https://invisiblethingslab.com/itl/Welcome.html <-- really nice group working on Qubes OS and secure computing. They
+                                                    publish a lot of nice blog posts and information about intel
+                                                    artchitecture and low level goodness. Also, try Qubes, it's cool! ;D
 
 
 DOCUMENTATION:
