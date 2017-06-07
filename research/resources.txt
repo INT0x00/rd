@@ -9,7 +9,6 @@ http://z0mbie.daemonlab.org/  <-- Z0mbie: One of the more creative and knowledab
 https://github.com/xoreaxeaxeax <-- Brilliant mind, creator of movfuscator and cantor dust and a lot of other cool tools. 
                                     Shares good knowledge about low level architectural issues and quircks.
 http://www.cs.bham.ac.uk/~exr/teaching/lectures/opsys/10_11/lectures/os-dev.pdf <-- OS development tutorial pdf by Nick Blundell                             
-COMMUNITIES / FORUMS / CHAT
 vxheaven.org/                 <-- VX Heaven: A virus creator community with a lot of interesting sources and insights.
 IRC                           <-- Chat protocol / networks, old, but gold. A lot of good communities and channels with people.
                                   Any popular server will have #virus #assembly channels where people lurk around
