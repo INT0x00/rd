@@ -36,12 +36,6 @@ def do_run(num, fp):
 		os.system("rm tmp*")
 
 g = open("output.txt", "wt")
-do_run(1, g)
-do_run(2, g)
-do_run(3, g)
-do_run(4, g)
-do_run(5, g)
-do_run(6, g)
-do_run(7, g)
-do_run(8, g)
+for i in range(8):
+	do_run(i, g)
 g.close()
