@@ -1,7 +1,6 @@
 // variaton on code seen in weird main.
 // this time main is the declaration of a struct. :-)
-// compiles just fine. didnt test output on ubuntu/debian yet though.
-// does not work on my gentoo, output is not displayed. but runs just fine on ubuntu/debian default builds for me
+// compiles just fine.
 typedef struct {
 	int a[13];
 } _main;
