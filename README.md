@@ -1,14 +1,29 @@
 :: lux-abscondita
 
-a research project into:
-* elf/binary files
-* machinecode (x86_64)
-* x64 assembly
-* memory/cpu interactions
-* system programming (x86_64 systems)
+a research project trying to shed light on the dark dungeons of low level x86/64 computing.
+Here i try to give some structure and complete my knowledge of this art, and once i have a more structured view on this topic notes and resources and code examples will be compiled into articles to try and teach people about the esoteric arts of binary and assembly fu.
 
-What this is not:
-documentation on the above. These are personal research notes and projects from a hobbyist. I wont go deep into all the ELF header fields, or all the data structures required to initialise your computer systems. I just pick out topics i find interesting
-and try to share my insights on these topics.
+Some topics i'm interested in and will be touching:
+<system programming>
+* bootloader development
+* kernel / os development
+* BIOS development
+* firmware
 
-Code examples, data and research notes, and hopefuly eventually this will grow into articles with code examples and a place for people to learn about and start their journey into the dungeons of computing, the invisible layers which make computing as powerful (jokes :'D... *tries not to cry*) and insecure as it is today.
+<general programming>
+* kernel vs user space
+* linux
+* memory management
+* assembly (x86_64)
+* c
+
+<advanced programming>
+* poly/metamorphism
+* self modifying / compiling code
+* debuggers/compilers/assemblers
+* domain specific languages
+* interpreters / emulators
+* security research (fuzzers / exploits / fun)
+
+Some of the topics here might grow into their own projects, you can view this project as my scratch pad.
+Feel free to steal my code, just be aware i'm not a proffessional and will probarbly break your shit if you don't understand what you are copying. I'm not responsible for your laziness, nor your assumptions on what my code is doing.
