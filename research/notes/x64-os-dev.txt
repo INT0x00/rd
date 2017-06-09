@@ -44,7 +44,12 @@ PhysicalAddress = Segment * 0x10 + Offset. (note the hex value 0x10) The example
 (0x08*0x10)+0xF000 = 0xF080. This memory accessing method allows us to do things like jump to 0xFFFF:0xFFFF which 
 lands us all the way at: 0x10FFEF. Often bootloaders will load the os-loader at 0x100000 and from there trampoline 
 up to higher memory. This in order to prevent DMA attacks on the os-core via things like FireWire which has direct 
-memory access to the lower 4GB range.
+memory access to the lower 4GB range.In 16-bit mode, cpu registers are also considered to be 16 bit, and so only the 
+lower 16 biuts of each register are availible. Makinging the main registers you use: 
+ax,bx,cx,dx,sp,bp,ip,cs,ds,es,fs,gs,ss,cr2,cr3,cr4. (cr1, 5 and 7 are reserved and unused...) 
+ip and cs can't really be directly manipulated. there are tricks to influence cs, and ip is the program counter (pc) 
+which points the cpu to the next instruction to be executed. ip can be influenced, but this can only happen by 
+overwriting it, and with that, usually breaking your program. (this can be a desired effect ofcourse...)
 Modern systems sometimes end up booting into 32-bit mode. This is generally observed if UEFI is used, as UEFI is 
 generally 32 bit code which loads the bootloader. In these systems the bootloader could theoretically be 32 bit. 
 Often though, the os-loader en bootloader take on most of the system initialisation, and will prefer perform the 
