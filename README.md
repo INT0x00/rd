@@ -1,4 +1,5 @@
-:: binary-excursions
+:: lux-abscondita
+
 a research project into:
 * elf/binary files
 * machinecode (x86_64)
