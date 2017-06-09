@@ -1,0 +1,25 @@
+>> general
+> Memory models
+>  * realmode
+>  * unrealmode
+>  * protected mode
+>  * long mode
+>  * compatibility mode
+
+
+>> Architecture:
+>  * CPU privelege levels
+>  * CPUID
+>  * 64BIT MEMORY/ADDRLEN/INSTRUCTIONS INFO
+>> boot
+> HELLO BOOTWORLD
+> BIOS INTERRUPTS
+> system enumeration 
+> mode switching (realmode/protectedmode/longmode)
+
+>> core
+> structures (GDT/IDT/PAGE_TABLES)
+> interrupt / fault handling
+> system initialisation
+> memory management (paging / segmentation?)
+> multi-tasking
