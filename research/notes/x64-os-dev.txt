@@ -51,6 +51,7 @@ Often though, the os-loader en bootloader take on most of the system initialisat
 mode switching themselves. So even if a 32 bit mode is set up by the code before the bootloader, most bootloaders will 
 initialise their own 32 bit mode, or jump to an os-loader which does this. 
 
-Some more specifics on realmode will be given when we dive into bootloaders, where we will also share some basic 16-bit real mode code examples based on bootloader functions and activities. (hooking BIOS, reading / writing / moving memory)
+Some more specifics on realmode will be given when we dive into bootloaders, where we will also share some basic 16-bit 
+real mode code examples based on bootloader functions and activities. (hooking BIOS, reading / writing / moving memory)
 
 > UnrealMode
