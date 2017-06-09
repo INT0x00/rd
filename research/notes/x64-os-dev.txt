@@ -45,6 +45,10 @@ PhysicalAddress = Segment * 0x10 + Offset. (note the hex value 0x10) The example
 lands us all the way at: 0x10FFEF. Often bootloaders will load the os-loader at 0x100000 and from there trampoline 
 up to higher memory. This in order to prevent DMA attacks on the os-core via things like FireWire which has direct 
 memory access to the lower 4GB range.
-Modern systems sometimes end up booting into 32-bit mode. This is generally observed if UEFI is used, as UEFI is generally 32 bit code which loads the bootloader. In these systems the bootloader could theoretically be 32 bit. Often though, the os-loader en bootloader take on most of the system initialisation, and will prefer perform the mode switching themselves. So even if a 32 bit mode is set up by the code before the bootloader, most bootloaders will initialise their own 32 bit mode, or jump to an os-loader which does this.  
+Modern systems sometimes end up booting into 32-bit mode. This is generally observed if UEFI is used, as UEFI is 
+generally 32 bit code which loads the bootloader. In these systems the bootloader could theoretically be 32 bit. 
+Often though, the os-loader en bootloader take on most of the system initialisation, and will prefer perform the 
+mode switching themselves. So even if a 32 bit mode is set up by the code before the bootloader, most bootloaders will 
+initialise their own 32 bit mode, or jump to an os-loader which does this.  
 
 > UnrealMode
