@@ -23,3 +23,5 @@
    * system initialisation
    * memory management (paging / segmentation?)
    * multi-tasking / context switching
+
+5) Devices & drivers
