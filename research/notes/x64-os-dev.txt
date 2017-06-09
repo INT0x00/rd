@@ -30,8 +30,18 @@
 
 >> MEMORY MODELS
 > RealMode
-Realmode is the memory mode which the CPU is booted into after the POWER ON signal. The system BIOS starts in this mode, and generally it is left up to the operating system and boot code to initialise further the CPU and memory and switch modes to more useful modes. In RealMode addressing happens in 16-bit mode. This means there only the adresses 0x0000-0xFFFF to directly access for read and write operations. Segment descriptors (cs,ds,es,fs,gs,ss) can be used to extend this range to 20-bits if the A20-line is enabled on the system. The A20 line is an old feature that enabled an extra line on the address bus of the system to extend the address space form 16-bit to 20-bit making 0x0000-0xFFFFF reachable by instructions. A segment offset is given in the form of SEGMENT_SELECTOR:ADDR or ds:0xF000 for example. They can also be 'hardcoded' segment selectors, giving a segment by its value directly. for example 0x08:0xF000.  The final adress is calculated as follows: PhysicalAddress = Segment * 0x10 + Offset.
-(note the hex value 0x10). the example before would thus be: (0x08*0x10)+0xF000 = 0xF080. This memory accessing method allows us to do things like jump to 0xFFFF:0xFFFF which lands us all the way at: 0x10FFEF. Often bootloaders will load the os-loader at 0x100000 and from there trampoline up to higher memory. This in order to prevent DMA attacks on the os-core via things like FireWire which has direct memory access to the lower 4GB range.
+Realmode is the memory mode which the CPU is booted into after the POWER ON signal. 
+The system BIOS starts in this mode, and generally it is left up to the operating system and boot code
+to initialise further the CPU and memory and switch modes to more useful modes. 
+In RealMode addressing happens in 16-bit mode. This means there only the adresses 0x0000-0xFFFF to directly 
+access for read and write operations. Segment descriptors (cs,ds,es,fs,gs,ss) can be used to extend this 
+range to 20-bits if the A20-line is enabled on the system. 
+The A20 line is an old feature that enabled an extra line on the address bus of the system to extend the address space form 16-bit to 20-bit making 0x0000-0xFFFFF reachable by instructions. 
+A segment offset is given in the form of SEGMENT_SELECTOR:ADDR or ds:0xF000 for example. They can also be 'hardcoded' segment selectors, giving a segment by its value directly. for example 0x08:0xF000.  
+The final adress is calculated as follows: PhysicalAddress = Segment * 0x10 + Offset. (note the hex value 0x10) 
+The example before would thus be: (0x08*0x10)+0xF000 = 0xF080. This memory accessing method allows us to do things like jump to 0xFFFF:0xFFFF which lands us all the way at: 0x10FFEF. 
+Often bootloaders will load the os-loader at 0x100000 and from there trampoline up to higher memory. 
+This in order to prevent DMA attacks on the os-core via things like FireWire which has direct memory access to the lower 4GB range.
 
 
 
