@@ -6,7 +6,8 @@
 ; objdump -D ./a.out
 ; wtf is that disassembly? callq? rolb?... ;)
 ; now ofcourse, this is due to symbols being stripped. but still, a disassembler should read the opcodes
-; this show how crummy these opcodes are really. if you can't glean whats going on by reading the binary...
+; this show how crummy these opcodes are really. if you can't glean whats going on by reading the binary without
+; a symbol file...
 
 global _start:
 
